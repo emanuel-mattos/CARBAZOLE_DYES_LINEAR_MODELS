@@ -1,4 +1,4 @@
-# Data_QSPR_Study_DSSC_Carbazole
+# QSPR_Study_DSSC_Carbazole
 Suporting information to the work QSPR STUDY OF THE EFFICIENCY OF DYE-SENSITIZED SOLAR CELLS UTILIZING CARBAZOLE-BASED DYES submitted in this journal.
 
 ## Components
