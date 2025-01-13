@@ -1,0 +1,2394 @@
+ *******************************************************************************
+ ** Site#: 4824         For non-commercial use only    Version 21.013L 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.013L, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left:  88**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              RM1 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sun Oct 17 08:10:23 2021  *
+ *  RM1        - The RM1 Hamiltonian to be used
+ *  POLAR      - CALCULATE FIRST, SECOND AND THIRD-ORDER POLARIZABILITIES
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  GNORM      - EXIT WHEN GRADIENT NORM DROPS BELOW 0.100
+ *******************************************************************************
+RM1 PRECISE POLAR GNORM=0.1
+
+
+  ATOM    CHEMICAL      BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER    SYMBOL       (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                     NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1       C          0.00000000       0.0000000       0.0000000        0     0     0
+     2       C          1.54780000  *    0.0000000       0.0000000        1     0     0
+     3       C          1.55130000  *  111.3451000  *    0.0000000        2     1     0
+     4       C          1.55320000  *  111.9144000  *  178.7570000  *     3     2     1
+     5       C          1.55210000  *  110.5412000  * -177.9386000  *     4     3     2
+     6       C          1.55310000  *  112.1243000  *  177.9440000  *     5     4     3
+     7       C          1.55130000  *  110.1690000  * -177.3117000  *     6     5     4
+     8       C          1.55280000  *  112.9114000  *  178.4568000  *     7     6     5
+     9       C          1.55230000  *  109.6268000  * -178.3980000  *     8     7     6
+    10       C          1.55280000  *  113.3303000  *  179.2374000  *     9     8     7
+    11       C          1.55440000  *  109.6866000  * -179.2082000  *    10     9     8
+    12       C          1.54940000  *  113.4298000  *  178.9760000  *    11    10     9
+    13       N          1.46400000  *  115.9893000  *  176.7575000  *    12    11    10
+    14       C          1.43100000  *  129.1591000  *  -13.1551000  *    13    12    11
+    15       C          1.34260000  *  132.6422000  *   34.1086000  *    14    13    12
+    16       C          1.47680000  *  118.8598000  *  173.8787000  *    15    14    13
+    17       C          1.35230000  *  121.6985000  *   -2.1624000  *    16    15    14
+    18       C          1.48040000  *  118.8743000  *    1.2318000  *    17    16    15
+    19       C          1.34090000  *  118.4655000  *    0.1752000  *    18    17    16
+    20       C          1.45560000  *  130.5477000  * -172.0707000  *    19    18    17
+    21       C          1.34310000  *  107.9582000  *  170.7319000  *    20    19    18
+    22       C          1.46540000  *  119.5037000  * -168.8913000  *    21    20    19
+    23       C          1.34770000  *  118.9285000  *    2.2542000  *    22    21    20
+    24       C          1.48540000  *  121.4564000  *   -3.7990000  *    23    22    21
+    25       C          1.35080000  *  118.7899000  *    1.2142000  *    24    23    22
+    26       N          1.42200000  *  120.7694000  * -178.9640000  *    24    23    22
+    27       C          1.43070000  *  126.0671000  *   42.5471000  *    26    24    25
+    28       C          1.34180000  *  130.9026000  *    2.5435000  *    27    26    24
+    29       C          1.47550000  *  118.9313000  * -176.5798000  *    28    27    26
+    30       C          1.35530000  *  122.0187000  *   -1.1341000  *    29    28    27
+    31       C          1.48690000  *  118.1076000  *   -2.9399000  *    30    29    28
+    32       C          1.33990000  *  118.9222000  *    3.0688000  *    31    30    29
+    33       C          1.45470000  *  130.9200000  * -179.5734000  *    32    31    30
+    34       C          1.42920000  *  126.9169000  * -138.0343000  *    26    24    25
+    35       C          1.34160000  *  131.0628000  *    2.5071000  *    34    26    24
+    36       C          1.47660000  *  118.8052000  * -176.0655000  *    35    34    26
+    37       C          1.35620000  *  122.2316000  *   -2.0584000  *    36    35    34
+    38       C          1.33980000  *  130.6731000  *    4.9934000  *    33    32    31
+    39       C          1.53770000  *  122.4883000  *  174.3799000  *    37    36    35
+    40       C          1.56230000  *  110.8953000  *  140.0457000  *    39    37    36
+    41       C          1.56290000  *  113.1383000  *   19.7209000  *    39    37    36
+    42       C          1.56000000  *  107.8146000  * -100.3554000  *    39    37    36
+    43       C          1.53610000  *  122.9740000  *  175.7582000  *    30    29    28
+    44       C          1.56290000  *  113.8332000  *    2.1277000  *    43    30    29
+    45       C          1.56000000  *  109.5088000  *  122.5544000  *    43    30    29
+    46       C          1.56120000  *  108.6795000  * -117.6510000  *    43    30    29
+    47       C          1.47370000  *  121.4193000  * -172.6306000  *    17    16    15
+    48       C          1.35060000  *  127.9492000  *  -14.2591000  *    47    17    16
+    49       C          1.48940000  *  116.1020000  *  173.9297000  *    48    47    17
+    50       C          1.34880000  *  116.0751000  *   -0.1016000  *    49    48    47
+    51       S          1.82050000  *  106.7103000  *    0.8989000  *    50    49    48
+    52       C          1.45970000  *  127.5503000  * -176.0301000  *    50    49    48
+    53       C          1.34850000  *  126.0706000  * -173.2627000  *    52    50    49
+    54       C          1.48200000  *  115.8477000  * -176.3620000  *    53    52    50
+    55       C          1.34940000  *  116.5544000  *    0.0804000  *    54    53    52
+    56       S          1.82390000  *  106.4574000  *   -0.9170000  *    55    54    53
+    57       C          1.46970000  *  123.0402000  *  177.1862000  *    55    54    53
+    58       C          1.34870000  *  127.1610000  * -173.9588000  *    57    55    54
+    59       C          1.47650000  *  120.1365000  *  178.0708000  *    58    57    55
+    60       O          1.23220000  *  121.0612000  *    3.6409000  *    59    58    57
+    61       O          1.35520000  *  119.8913000  * -174.0714000  *    59    58    57
+    62       C          1.42650000  *  122.5784000  *   -1.4191000  *    58    57    55
+    63       N          1.15670000  *  178.9743000  *  176.2723000  *    62    58    57
+    64       H          1.05410000  *  115.6346000  *    4.2178000  *    57    55    54
+    65       H          1.09050000  *  110.0863000  *   60.4987000  *     1     2     3
+    66       H          1.09060000  *  109.4445000  * -179.7327000  *     1     2     3
+    67       H          1.09070000  *  110.0786000  *  -60.0236000  *     1     2     3
+    68       H          1.09230000  *  108.8366000  * -178.8286000  *     2     1    65
+    69       H          1.09210000  *  108.9725000  *  -60.3008000  *     2     1    65
+    70       H          1.09290000  *  109.1709000  *  179.2091000  *     3     2    68
+    71       H          1.09300000  *  108.9859000  *  178.7222000  *     3     2    69
+    72       H          1.09260000  *  109.3221000  * -178.6071000  *     4     3    70
+    73       H          1.09280000  *  109.4946000  *  -59.3139000  *     4     3    70
+    74       H          1.09330000  *  109.0433000  *  178.6833000  *     5     4    72
+    75       H          1.09360000  *  108.7913000  *  -62.9501000  *     5     4    72
+    76       H          1.09240000  *  109.2624000  * -178.1181000  *     6     5    74
+    77       H          1.09210000  *  109.4228000  *  -58.8071000  *     6     5    74
+    78       H          1.09250000  *  108.8406000  *  179.4105000  *     7     6    76
+    79       H          1.09260000  *  108.6764000  *  178.1103000  *     7     6    77
+    80       H          1.09200000  *  109.5284000  * -179.2478000  *     8     7    78
+    81       H          1.09200000  *  109.5411000  *  -59.6828000  *     8     7    78
+    82       H          1.09310000  *  108.7185000  * -179.7719000  *     9     8    80
+    83       H          1.09320000  *  108.6735000  *  178.5713000  *     9     8    81
+    84       H          1.09160000  *  109.3742000  *  179.7890000  *    10     9    82
+    85       H          1.09160000  *  109.4744000  *  -60.7144000  *    10     9    82
+    86       H          1.09260000  *  108.3809000  * -179.9013000  *    11    10    84
+    87       H          1.09250000  *  108.0703000  *  179.0375000  *    11    10    85
+    88       H          1.09290000  *  108.3136000  *  177.2092000  *    12    11    86
+    89       H          1.09310000  *  108.3291000  *  175.2901000  *    12    11    87
+    90       H          1.04680000  *  121.8093000  *   -1.7625000  *    15    14    13
+    91       H          1.05120000  *  117.6857000  * -177.9106000  *    16    15    14
+    92       H          1.04920000  *  121.0589000  * -176.2585000  *    18    17    16
+    93       H          1.05020000  *  120.5231000  *  178.7527000  *    22    21    20
+    94       H          1.05050000  *  118.7570000  *  176.4719000  *    23    22    21
+    95       H          1.05000000  *  121.0615000  *    2.3719000  *    25    24    26
+    96       H          1.04870000  *  121.2947000  *    0.9049000  *    28    27    26
+    97       H          1.04960000  *  117.0948000  *  176.3351000  *    29    28    27
+    98       H          1.04980000  *  120.9800000  * -176.8501000  *    31    30    29
+    99       H          1.04890000  *  121.3512000  *    1.0580000  *    35    34    26
+   100       H          1.04950000  *  117.0993000  *  174.5475000  *    36    35    34
+   101       H          1.04900000  *  119.7888000  *    0.7608000  *    38    33    32
+   102       H          1.09160000  *  109.9781000  *  -54.7309000  *    40    39    37
+   103       H          1.09040000  *  110.9450000  *   65.8807000  *    40    39    37
+   104       H          1.09200000  *  110.3082000  * -174.6948000  *    40    39    37
+   105       H          1.09170000  *  110.1514000  *   56.1667000  *    41    39    37
+   106       H          1.09210000  *  110.2906000  *  175.9827000  *    41    39    37
+   107       H          1.09120000  *  110.7206000  *  -64.6792000  *    41    39    37
+   108       H          1.09150000  *  110.4070000  * -179.6605000  *    42    39    37
+   109       H          1.09170000  *  110.3174000  *  -59.5588000  *    42    39    37
+   110       H          1.09200000  *  110.0386000  *   60.2437000  *    42    39    37
+   111       H          1.09170000  *  110.5334000  *  -60.1289000  *    44    43    30
+   112       H          1.09150000  *  110.4366000  *   60.8720000  *    44    43    30
+   113       H          1.09230000  *  110.0575000  * -179.5895000  *    44    43    30
+   114       H          1.09060000  *  110.8166000  *   62.2282000  *    45    43    30
+   115       H          1.09170000  *  110.1721000  * -177.9427000  *    45    43    30
+   116       H          1.09170000  *  109.9174000  *  -58.0665000  *    45    43    30
+   117       H          1.09200000  *  109.9522000  *   59.4532000  *    46    43    30
+   118       H          1.09150000  *  110.2968000  *  179.3898000  *    46    43    30
+   119       H          1.09090000  *  110.7324000  *  -60.6458000  *    46    43    30
+   120       H          1.04960000  *  122.8227000  *   -3.3095000  *    48    47    17
+   121       H          1.04890000  *  121.2575000  * -177.5527000  *    49    48    47
+   122       H          1.04840000  *  122.9198000  *    1.8054000  *    53    52    50
+   123       H          1.04830000  *  121.2284000  *  178.6638000  *    54    53    52
+   124       H          0.94030000  *  121.3016000  *    1.1929000  *    61    59    60
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         C          0.0000      0.0000      0.0000
+     2         C          1.5478      0.0000      0.0000
+     3         C          2.1124      1.4449      0.0000
+     4         C          3.6653      1.4604      0.0313
+     5         C          4.1944      2.9187      0.0827
+     6         C          5.7441      2.9760      0.1667
+     7         C          6.2194      4.4480      0.2839
+     8         C          7.7616      4.5771      0.4107
+     9         C          8.1489      6.0725      0.5634
+    10         C          9.6774      6.2994      0.7164
+    11         C          9.9673      7.8175      0.8827
+    12         C         11.4713      8.1407      1.0680
+    13         N         11.8161      9.5608      1.1561
+    14         C         11.0154     10.7060      0.8476
+    15         C          9.7017     10.9560      0.9669
+    16         C          9.2056     12.3161      0.6754
+    17         C         10.0445     13.3207      0.3351
+    18         C         11.4934     13.0366      0.2275
+    19         C         11.9196     11.7884      0.4691
+    20         C         13.2690     11.2559      0.5895
+    21         C         13.1773      9.9924      1.0357
+    22         C         14.3865      9.2949      1.4813
+    23         C         15.5605      9.9568      1.4756
+    24         C         15.6664     11.3425      0.9513
+    25         C         14.5510     11.9525      0.4950
+    26         N         16.9169     12.0194      0.9321
+    27         C         17.1415     13.3845      1.2968
+    28         C         16.3005     14.3176      1.7684
+    29         C         16.8046     15.6866      1.9895
+    30         C         18.0956     16.0240      1.7522
+    31         C         19.0311     14.9529      1.3180
+    32         C         18.5536     13.7170      1.1187
+    33         C         19.2220     12.4919      0.7084
+    34         C         18.1836     11.4722      0.5598
+    35         C         18.5190     10.2544      0.1076
+    36         C         19.9457      9.9464     -0.1156
+    37         C         20.9236     10.8651      0.0819
+    38         C         20.5199     12.2334      0.4988
+    39         C         22.4175     10.5175     -0.0261
+    40         C         23.2068     11.6647     -0.7345
+    41         C         22.6864      9.2078     -0.8356
+    42         C         22.9697     10.3296      1.4207
+    43         C         18.6219     17.4611      1.8838
+    44         C         17.5454     18.4862      2.3665
+    45         C         19.7965     17.4938      2.9099
+    46         C         19.1309     17.9371      0.4868
+    47         C          9.5670     14.7085      0.2019
+    48         C          8.2910     15.1436      0.1207
+    49         C          8.1004     16.6207      0.1320
+    50         C          9.2230     17.3627      0.2244
+    51         S         10.6191     16.1954      0.2765
+    52         C          9.3231     18.8146      0.3363
+    53         C         10.4610     19.5373      0.2994
+    54         C         10.3081     20.9950      0.5186
+    55         C          9.0539     21.4445      0.7327
+    56         S          7.9597     19.9885      0.6366
+    57         C          8.7460     22.8515      1.0252
+    58         C          7.5475     23.3702      1.3620
+    59         C          7.4216     24.8096      1.6658
+    60         O          8.3850     25.5697      1.5538
+    61         O          6.2440     25.3037      2.1195
+    62         C          6.3653     22.5770      1.4523
+    63         N          5.3962     21.9505      1.5320
+    64         H          9.5650     23.5142      0.9909
+    65         H         -0.3745      0.5043     -0.8914
+    66         H         -0.3631     -1.0284      0.0048
+    67         H         -0.3744      0.5118      0.8874
+    68         H          1.9005     -0.5274      0.8892
+    69         H          1.9029     -0.5288     -0.8871
+    70         H          1.7689      1.9645     -0.8980
+    71         H          1.7345      1.9744      0.8783
+    72         H          4.0145      0.9205      0.9146
+    73         H          4.0530      0.9664     -0.8631
+    74         H          3.8633      3.4501     -0.8135
+    75         H          3.7721      3.4159      0.9605
+    76         H          6.0784      2.4169      1.0437
+    77         H          6.1734      2.5230     -0.7295
+    78         H          5.8899      4.9967     -0.6015
+    79         H          5.7551      4.8964      1.1655
+    80         H          8.1037      4.0208      1.2859
+    81         H          8.2372      4.1653     -0.4818
+    82         H          7.7972      6.6176     -0.3164
+    83         H          7.6452      6.4762      1.4457
+    84         H         10.0371      5.7614      1.5954
+    85         H         10.1918      5.9215     -0.1692
+    86         H          9.5990      8.3378     -0.0047
+    87         H          9.4275      8.1710      1.7642
+    88         H         11.8162      7.6561      1.9849
+    89         H         12.0213      7.7123      0.2261
+    90         H          9.0328     10.2343      1.3239
+    91         H          8.1791     12.5002      0.8070
+    92         H         12.1814     13.8019      0.0230
+    93         H         14.3305      8.3136      1.8514
+    94         H         16.4153      9.4729      1.8480
+    95         H         14.5907     12.9185      0.0854
+    96         H         15.2895     14.1012      1.9437
+    97         H         16.1089     16.4075      2.3025
+    98         H         20.0508     15.1537      1.1693
+    99         H         17.7953      9.5107     -0.0454
+   100         H         20.1856      8.9607     -0.3847
+   101         H         21.2321     12.9896      0.6449
+   102         H         22.7552     11.8848     -1.7037
+   103         H         23.2045     12.5712     -0.1286
+   104         H         24.2464     11.3693     -0.8905
+   105         H         22.2440      9.2833     -1.8308
+   106         H         23.7605      9.0435     -0.9442
+   107         H         22.2653      8.3426     -0.3210
+   108         H         24.0334     10.0863      1.3936
+   109         H         22.8358     11.2455      1.9995
+   110         H         22.4364      9.5195      1.9225
+   111         H         16.7104     18.5238      1.6642
+   112         H         17.1722     18.2102      3.3544
+   113         H         17.9819     19.4853      2.4313
+   114         H         20.6295     16.8801      2.5652
+   115         H         20.1550     18.5168      3.0392
+   116         H         19.4569     17.1155      3.8760
+   117         H         18.3156     17.9015     -0.2388
+   118         H         19.5018     18.9618      0.5479
+   119         H         19.9414     17.2985      0.1329
+   120         H          7.4683     14.4923      0.0954
+   121         H          7.1418     17.0460      0.1111
+   122         H         11.4056     19.1058      0.1553
+   123         H         11.1396     21.6333      0.5281
+   124         H          6.1461     26.2142      2.3330
+
+  H: (RM1): G.B. ROCHA, R.O. FREIRE, A.M.SIMAS, J.J.P. STEWART, J. COMP. CHEM. 27, 1101 (2006)
+  C: (RM1): G.B. ROCHA, R.O. FREIRE, A.M.SIMAS, J.J.P. STEWART, J. COMP. CHEM. 27, 1101 (2006)
+  N: (RM1): G.B. ROCHA, R.O. FREIRE, A.M.SIMAS, J.J.P. STEWART, J. COMP. CHEM. 27, 1101 (2006)
+  O: (RM1): G.B. ROCHA, R.O. FREIRE, A.M.SIMAS, J.J.P. STEWART, J. COMP. CHEM. 27, 1101 (2006)
+  S: (RM1): G.B. ROCHA, R.O. FREIRE, A.M.SIMAS, J.J.P. STEWART, J. COMP. CHEM. 27, 1101 (2006)
+
+           Empirical Formula: C56 H61 N3 O2 S2  =   124 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 162
+
+
+          Geometry optimization using L-BFGS
+ CYCLE:     1 TIME:   0.613 TIME LEFT:  2.00D  GRAD.:   801.209 HEAT:  115.0028
+ CYCLE:     2 TIME:   0.453 TIME LEFT:  2.00D  GRAD.:   518.769 HEAT:  111.2880
+ CYCLE:     3 TIME:   0.398 TIME LEFT:  2.00D  GRAD.:   522.482 HEAT:  108.8609
+ CYCLE:     4 TIME:   0.396 TIME LEFT:  2.00D  GRAD.:   517.653 HEAT:  111.2878
+ CYCLE:     5 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:   526.336 HEAT:  108.8573
+ CYCLE:     6 TIME:   0.400 TIME LEFT:  2.00D  GRAD.:   700.358 HEAT:  96.91551
+ CYCLE:     7 TIME:   0.400 TIME LEFT:  2.00D  GRAD.:   784.402 HEAT:  87.34229
+ CYCLE:     8 TIME:   0.416 TIME LEFT:  2.00D  GRAD.:   536.978 HEAT:  74.84923
+ CYCLE:     9 TIME:   0.445 TIME LEFT:  2.00D  GRAD.:   523.150 HEAT:  65.92610
+ CYCLE:    10 TIME:   0.430 TIME LEFT:  2.00D  GRAD.:   421.329 HEAT:  58.43893
+ CYCLE:    11 TIME:   0.412 TIME LEFT:  2.00D  GRAD.:   374.299 HEAT:  48.80032
+ CYCLE:    12 TIME:   0.412 TIME LEFT:  2.00D  GRAD.:   283.685 HEAT:  41.48670
+ CYCLE:    13 TIME:   0.410 TIME LEFT:  2.00D  GRAD.:   319.580 HEAT:  38.60835
+ CYCLE:    14 TIME:   0.398 TIME LEFT:  2.00D  GRAD.:   148.765 HEAT:  37.63062
+ CYCLE:    15 TIME:   0.395 TIME LEFT:  2.00D  GRAD.:   133.860 HEAT:  36.80611
+ CYCLE:    16 TIME:   0.459 TIME LEFT:  2.00D  GRAD.:   144.105 HEAT:  35.62852
+ CYCLE:    17 TIME:   0.387 TIME LEFT:  2.00D  GRAD.:   229.299 HEAT:  34.71235
+ CYCLE:    18 TIME:   0.400 TIME LEFT:  2.00D  GRAD.:   144.517 HEAT:  33.69101
+ CYCLE:    19 TIME:   0.371 TIME LEFT:  2.00D  GRAD.:   120.549 HEAT:  33.01651
+ CYCLE:    20 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:   115.184 HEAT:  32.35400
+ CYCLE:    21 TIME:   0.430 TIME LEFT:  2.00D  GRAD.:   118.686 HEAT:  31.51051
+ CYCLE:    22 TIME:   0.404 TIME LEFT:  2.00D  GRAD.:   221.084 HEAT:  30.92465
+ CYCLE:    23 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:   130.683 HEAT:  30.25320
+ CYCLE:    24 TIME:   0.369 TIME LEFT:  2.00D  GRAD.:   130.846 HEAT:  29.89915
+ CYCLE:    25 TIME:   0.361 TIME LEFT:  2.00D  GRAD.:    69.296 HEAT:  29.40917
+ CYCLE:    26 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:    70.131 HEAT:  29.23607
+ CYCLE:    27 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:    72.865 HEAT:  29.06225
+ CYCLE:    28 TIME:   0.389 TIME LEFT:  2.00D  GRAD.:   111.197 HEAT:  28.75101
+ CYCLE:    29 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:   100.778 HEAT:  28.37915
+ CYCLE:    30 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:   114.178 HEAT:  28.06941
+ CYCLE:    31 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:   118.731 HEAT:  27.91382
+ CYCLE:    32 TIME:   0.361 TIME LEFT:  2.00D  GRAD.:    76.927 HEAT:  27.81188
+ CYCLE:    33 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:    57.493 HEAT:  27.68250
+ CYCLE:    34 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:    43.907 HEAT:  27.58501
+ CYCLE:    35 TIME:   0.389 TIME LEFT:  2.00D  GRAD.:    42.705 HEAT:  27.47713
+ CYCLE:    36 TIME:   0.379 TIME LEFT:  2.00D  GRAD.:   116.587 HEAT:  27.46960
+ CYCLE:    37 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:    48.614 HEAT:  27.30019
+ CYCLE:    38 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:    25.123 HEAT:  27.24272
+ CYCLE:    39 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:    40.134 HEAT:  27.17212
+ CYCLE:    40 TIME:   0.404 TIME LEFT:  2.00D  GRAD.:    44.217 HEAT:  27.09323
+ CYCLE:    41 TIME:   0.463 TIME LEFT:  2.00D  GRAD.:   103.753 HEAT:  26.94929
+ CYCLE:    42 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:    45.422 HEAT:  26.81974
+ CYCLE:    43 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:    22.283 HEAT:  26.77269
+ CYCLE:    44 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:    34.641 HEAT:  26.74804
+ CYCLE:    45 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:   160.208 HEAT:  26.78859
+ CYCLE:    46 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:    30.156 HEAT:  26.70758
+ CYCLE:    47 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:    22.322 HEAT:  26.69631
+ CYCLE:    48 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:    26.409 HEAT:  26.66068
+ CYCLE:    49 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:    30.667 HEAT:  26.61711
+ CYCLE:    50 TIME:   0.393 TIME LEFT:  2.00D  GRAD.:    31.783 HEAT:  26.55513
+ CYCLE:    51 TIME:   0.412 TIME LEFT:  2.00D  GRAD.:   145.347 HEAT:  26.62829
+ CYCLE:    52 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:    24.034 HEAT:  26.47724
+ CYCLE:    53 TIME:   0.348 TIME LEFT:  2.00D  GRAD.:    23.282 HEAT:  26.45395
+ CYCLE:    54 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:    35.222 HEAT:  26.39850
+ CYCLE:    55 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:    47.456 HEAT:  26.32496
+ CYCLE:    56 TIME:   0.398 TIME LEFT:  2.00D  GRAD.:    54.279 HEAT:  26.25813
+ CYCLE:    57 TIME:   0.383 TIME LEFT:  2.00D  GRAD.:    49.036 HEAT:  26.17877
+ CYCLE:    58 TIME:   0.363 TIME LEFT:  2.00D  GRAD.:    31.172 HEAT:  26.13547
+ CYCLE:    59 TIME:   0.420 TIME LEFT:  2.00D  GRAD.:    32.285 HEAT:  26.07148
+ CYCLE:    60 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:   327.788 HEAT:  26.36601
+ CYCLE:    61 TIME:   0.318 TIME LEFT:  2.00D  GRAD.:    44.232 HEAT:  26.03829
+ CYCLE:    62 TIME:   0.307 TIME LEFT:  2.00D  GRAD.:    34.665 HEAT:  26.02506
+ CYCLE:    63 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:    29.363 HEAT:  25.97998
+ CYCLE:    64 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:    31.427 HEAT:  25.94791
+ CYCLE:    65 TIME:   0.352 TIME LEFT:  2.00D  GRAD.:    32.927 HEAT:  25.87850
+ CYCLE:    66 TIME:   0.727 TIME LEFT:  2.00D  GRAD.:   164.622 HEAT:  26.04151
+ CYCLE:    67 TIME:   0.404 TIME LEFT:  2.00D  GRAD.:    18.141 HEAT:  25.81319
+ CYCLE:    68 TIME:   0.391 TIME LEFT:  2.00D  GRAD.:    16.414 HEAT:  25.80598
+ CYCLE:    69 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:    22.548 HEAT:  25.75566
+ CYCLE:    70 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:    35.823 HEAT:  25.70881
+ CYCLE:    71 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:    79.617 HEAT:  25.71780
+ CYCLE:    72 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:    20.470 HEAT:  25.64217
+ CYCLE:    73 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:    15.677 HEAT:  25.62898
+ CYCLE:    74 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:    18.434 HEAT:  25.60629
+ CYCLE:    75 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:   167.046 HEAT:  25.69122
+ CYCLE:    76 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:    16.449 HEAT:  25.58760
+ CYCLE:    77 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:    16.730 HEAT:  25.58315
+ CYCLE:    78 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:    12.541 HEAT:  25.55967
+ CYCLE:    79 TIME:   0.842 TIME LEFT:  2.00D  GRAD.:    31.280 HEAT:  25.52275
+ CYCLE:    80 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:    40.040 HEAT:  25.52383
+ CYCLE:    81 TIME:   0.414 TIME LEFT:  2.00D  GRAD.:    12.612 HEAT:  25.50056
+ CYCLE:    82 TIME:   0.393 TIME LEFT:  2.00D  GRAD.:    10.087 HEAT:  25.49394
+ CYCLE:    83 TIME:   0.402 TIME LEFT:  2.00D  GRAD.:    14.803 HEAT:  25.47155
+ CYCLE:    84 TIME:   0.396 TIME LEFT:  2.00D  GRAD.:    28.708 HEAT:  25.44909
+ CYCLE:    85 TIME:   0.385 TIME LEFT:  2.00D  GRAD.:    21.650 HEAT:  25.42719
+ CYCLE:    86 TIME:   0.375 TIME LEFT:  2.00D  GRAD.:    14.077 HEAT:  25.40842
+ CYCLE:    87 TIME:   0.387 TIME LEFT:  2.00D  GRAD.:    14.694 HEAT:  25.39199
+ CYCLE:    88 TIME:   0.375 TIME LEFT:  2.00D  GRAD.:    15.099 HEAT:  25.37223
+ CYCLE:    89 TIME:   0.383 TIME LEFT:  2.00D  GRAD.:    18.027 HEAT:  25.33817
+ CYCLE:    90 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:   196.753 HEAT:  25.46299
+ CYCLE:    91 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:    14.539 HEAT:  25.32837
+ CYCLE:    92 TIME:   0.416 TIME LEFT:  2.00D  GRAD.:    13.920 HEAT:  25.32732
+ CYCLE:    93 TIME:   0.412 TIME LEFT:  2.00D  GRAD.:    44.901 HEAT:  25.31628
+ CYCLE:    94 TIME:   0.395 TIME LEFT:  2.00D  GRAD.:    13.383 HEAT:  25.29704
+ CYCLE:    95 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:    15.214 HEAT:  25.28754
+ CYCLE:    96 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:    20.437 HEAT:  25.27800
+ CYCLE:    97 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:    28.144 HEAT:  25.25247
+ CYCLE:    98 TIME:   0.379 TIME LEFT:  2.00D  GRAD.:    79.079 HEAT:  25.26077
+ CYCLE:    99 TIME:   0.361 TIME LEFT:  2.00D  GRAD.:    17.163 HEAT:  25.22068
+ CYCLE:   100 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:    11.237 HEAT:  25.21589
+ CYCLE:   101 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:    13.048 HEAT:  25.20980
+ CYCLE:   102 TIME:   0.369 TIME LEFT:  2.00D  GRAD.:    17.204 HEAT:  25.20213
+ CYCLE:   103 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:    25.463 HEAT:  25.17879
+ CYCLE:   104 TIME:   0.402 TIME LEFT:  2.00D  GRAD.:    33.732 HEAT:  25.15945
+ CYCLE:   105 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:    15.526 HEAT:  25.13305
+ CYCLE:   106 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:    13.735 HEAT:  25.11858
+ CYCLE:   107 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:    29.145 HEAT:  25.10849
+ CYCLE:   108 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:    14.721 HEAT:  25.10055
+ CYCLE:   109 TIME:   0.410 TIME LEFT:  2.00D  GRAD.:    24.101 HEAT:  25.09361
+ CYCLE:   110 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:    36.000 HEAT:  25.07580
+ CYCLE:   111 TIME:   0.406 TIME LEFT:  2.00D  GRAD.:    36.398 HEAT:  25.05227
+ CYCLE:   112 TIME:   0.371 TIME LEFT:  2.00D  GRAD.:    37.552 HEAT:  25.02141
+ CYCLE:   113 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:    28.150 HEAT:  24.99302
+ CYCLE:   114 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:    31.716 HEAT:  24.97674
+ CYCLE:   115 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:    18.910 HEAT:  24.96250
+ CYCLE:   116 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:    17.333 HEAT:  24.95196
+ CYCLE:   117 TIME:   0.361 TIME LEFT:  2.00D  GRAD.:    16.450 HEAT:  24.93939
+ CYCLE:   118 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:    24.445 HEAT:  24.91641
+ CYCLE:   119 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:    25.721 HEAT:  24.88518
+ CYCLE:   120 TIME:   0.348 TIME LEFT:  2.00D  GRAD.:    18.223 HEAT:  24.85226
+ CYCLE:   121 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:    20.663 HEAT:  24.82552
+ CYCLE:   122 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:   591.089 HEAT:  25.97999
+ CYCLE:   123 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:    11.799 HEAT:  24.80551
+ CYCLE:   124 TIME:   0.377 TIME LEFT:  2.00D  GRAD.:    14.477 HEAT:  24.80308
+ CYCLE:   125 TIME:   0.363 TIME LEFT:  2.00D  GRAD.:    21.150 HEAT:  24.78435
+ CYCLE:   126 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:    16.215 HEAT:  24.76122
+ CYCLE:   127 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:    14.206 HEAT:  24.72968
+ CYCLE:   128 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:    22.867 HEAT:  24.68984
+ CYCLE:   129 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:    50.297 HEAT:  24.67682
+ CYCLE:   130 TIME:   0.379 TIME LEFT:  2.00D  GRAD.:    14.686 HEAT:  24.64867
+ CYCLE:   131 TIME:   0.309 TIME LEFT:  2.00D  GRAD.:    13.260 HEAT:  24.63810
+ CYCLE:   132 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:    13.950 HEAT:  24.62604
+ CYCLE:   133 TIME:   0.791 TIME LEFT:  2.00D  GRAD.:    31.076 HEAT:  24.59715
+ CYCLE:   134 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:    26.725 HEAT:  24.57837
+ CYCLE:   135 TIME:   0.314 TIME LEFT:  2.00D  GRAD.:    12.729 HEAT:  24.56134
+ CYCLE:   136 TIME:   0.324 TIME LEFT:  2.00D  GRAD.:    13.759 HEAT:  24.54853
+ CYCLE:   137 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:   125.454 HEAT:  24.57716
+ CYCLE:   138 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:    17.647 HEAT:  24.53138
+ CYCLE:   139 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:    16.502 HEAT:  24.52659
+ CYCLE:   140 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:    14.917 HEAT:  24.51179
+ CYCLE:   141 TIME:   0.369 TIME LEFT:  2.00D  GRAD.:    20.696 HEAT:  24.47733
+ CYCLE:   142 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:    40.411 HEAT:  24.47317
+ CYCLE:   143 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:    14.159 HEAT:  24.45043
+ CYCLE:   144 TIME:   0.363 TIME LEFT:  2.00D  GRAD.:     9.879 HEAT:  24.43935
+ CYCLE:   145 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:    14.187 HEAT:  24.42471
+ CYCLE:   146 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:    42.800 HEAT:  24.42359
+ CYCLE:   147 TIME:   0.314 TIME LEFT:  2.00D  GRAD.:    11.755 HEAT:  24.40980
+ CYCLE:   148 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:     9.491 HEAT:  24.40622
+ CYCLE:   149 TIME:   0.369 TIME LEFT:  2.00D  GRAD.:    14.622 HEAT:  24.39804
+ CYCLE:   150 TIME:   0.391 TIME LEFT:  2.00D  GRAD.:    18.300 HEAT:  24.38719
+ CYCLE:   151 TIME:   0.369 TIME LEFT:  2.00D  GRAD.:    29.092 HEAT:  24.37819
+ CYCLE:   152 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:    19.931 HEAT:  24.36148
+ CYCLE:   153 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:    62.893 HEAT:  24.36760
+ CYCLE:   154 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:    10.145 HEAT:  24.35597
+ CYCLE:   155 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:     8.725 HEAT:  24.35444
+ CYCLE:   156 TIME:   0.363 TIME LEFT:  2.00D  GRAD.:    15.112 HEAT:  24.34815
+ CYCLE:   157 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:    15.504 HEAT:  24.33713
+ CYCLE:   158 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:    19.233 HEAT:  24.31690
+ CYCLE:   159 TIME:   0.385 TIME LEFT:  2.00D  GRAD.:    34.174 HEAT:  24.30977
+ CYCLE:   160 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:    15.741 HEAT:  24.29581
+ CYCLE:   161 TIME:   0.318 TIME LEFT:  2.00D  GRAD.:    11.697 HEAT:  24.28991
+ CYCLE:   162 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:     9.820 HEAT:  24.27979
+ CYCLE:   163 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:     9.368 HEAT:  24.26790
+ CYCLE:   164 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:    32.463 HEAT:  24.26013
+ CYCLE:   165 TIME:   0.307 TIME LEFT:  2.00D  GRAD.:     8.769 HEAT:  24.24408
+ CYCLE:   166 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:     9.379 HEAT:  24.23608
+ CYCLE:   167 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:    61.257 HEAT:  24.23385
+ CYCLE:   168 TIME:   0.377 TIME LEFT:  2.00D  GRAD.:    12.496 HEAT:  24.22090
+ CYCLE:   169 TIME:   0.385 TIME LEFT:  2.00D  GRAD.:     7.955 HEAT:  24.21764
+ CYCLE:   170 TIME:   0.420 TIME LEFT:  2.00D  GRAD.:    12.219 HEAT:  24.21451
+ CYCLE:   171 TIME:   0.414 TIME LEFT:  2.00D  GRAD.:    12.462 HEAT:  24.20974
+ CYCLE:   172 TIME:   0.418 TIME LEFT:  2.00D  GRAD.:    10.882 HEAT:  24.20056
+ CYCLE:   173 TIME:   0.396 TIME LEFT:  2.00D  GRAD.:    15.002 HEAT:  24.19333
+ CYCLE:   174 TIME:   0.432 TIME LEFT:  2.00D  GRAD.:    37.263 HEAT:  24.18853
+ CYCLE:   175 TIME:   0.416 TIME LEFT:  2.00D  GRAD.:    15.563 HEAT:  24.17396
+ CYCLE:   176 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:     8.409 HEAT:  24.16064
+ CYCLE:   177 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:    13.486 HEAT:  24.15130
+ CYCLE:   178 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:    17.343 HEAT:  24.14068
+ CYCLE:   179 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:    26.555 HEAT:  24.13187
+ CYCLE:   180 TIME:   0.348 TIME LEFT:  2.00D  GRAD.:    25.413 HEAT:  24.11850
+ CYCLE:   181 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:    41.283 HEAT:  24.11012
+ CYCLE:   182 TIME:   0.418 TIME LEFT:  2.00D  GRAD.:    23.389 HEAT:  24.09940
+ CYCLE:   183 TIME:   0.375 TIME LEFT:  2.00D  GRAD.:    49.618 HEAT:  24.09337
+ CYCLE:   184 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:    48.270 HEAT:  24.08667
+ CYCLE:   185 TIME:   0.400 TIME LEFT:  2.00D  GRAD.:    21.916 HEAT:  24.07567
+ CYCLE:   186 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:    18.148 HEAT:  24.07737
+ CYCLE:   187 TIME:   0.352 TIME LEFT:  2.00D  GRAD.:    24.053 HEAT:  24.06585
+ CYCLE:   188 TIME:   0.375 TIME LEFT:  2.00D  GRAD.:    18.832 HEAT:  24.06716
+ CYCLE:   189 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:    18.156 HEAT:  24.04117
+ CYCLE:   190 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:    43.593 HEAT:  24.02583
+ CYCLE:   191 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:    12.441 HEAT:  23.99834
+ CYCLE:   192 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:    12.829 HEAT:  23.99118
+ CYCLE:   193 TIME:   0.406 TIME LEFT:  2.00D  GRAD.:    14.555 HEAT:  23.97938
+ CYCLE:   194 TIME:   0.398 TIME LEFT:  2.00D  GRAD.:    31.086 HEAT:  23.94525
+ CYCLE:   195 TIME:   0.395 TIME LEFT:  2.00D  GRAD.:    30.297 HEAT:  23.91275
+ CYCLE:   196 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:    16.902 HEAT:  23.88043
+ CYCLE:   197 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:    64.196 HEAT:  23.86921
+ CYCLE:   198 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:    19.435 HEAT:  23.85098
+ CYCLE:   199 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:    17.554 HEAT:  23.84130
+ CYCLE:   200 TIME:   0.402 TIME LEFT:  2.00D  GRAD.:    26.973 HEAT:  23.80938
+ CYCLE:   201 TIME:   0.416 TIME LEFT:  2.00D  GRAD.:    26.776 HEAT:  23.78369
+ CYCLE:   202 TIME:   0.412 TIME LEFT:  2.00D  GRAD.:    52.164 HEAT:  23.77420
+ CYCLE:   203 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:    30.706 HEAT:  23.74658
+ CYCLE:   204 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:    26.671 HEAT:  23.71565
+ CYCLE:   205 TIME:   0.348 TIME LEFT:  2.00D  GRAD.:    23.840 HEAT:  23.69015
+ CYCLE:   206 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:   158.315 HEAT:  23.78416
+ CYCLE:   207 TIME:   0.391 TIME LEFT:  2.00D  GRAD.:    18.544 HEAT:  23.66606
+ CYCLE:   208 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:    19.482 HEAT:  23.65648
+ CYCLE:   209 TIME:   0.352 TIME LEFT:  2.00D  GRAD.:    28.954 HEAT:  23.61294
+ CYCLE:   210 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:    31.526 HEAT:  23.55118
+ CYCLE:   211 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:   146.593 HEAT:  23.53882
+ CYCLE:   212 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:    47.079 HEAT:  23.46352
+ CYCLE:   213 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:    33.532 HEAT:  23.44377
+ CYCLE:   214 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:    29.873 HEAT:  23.41204
+ CYCLE:   215 TIME:   0.416 TIME LEFT:  2.00D  GRAD.:    39.996 HEAT:  23.37730
+ CYCLE:   216 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:    42.336 HEAT:  23.35202
+ CYCLE:   217 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:    29.387 HEAT:  23.28663
+ CYCLE:   218 TIME:   0.363 TIME LEFT:  2.00D  GRAD.:    26.272 HEAT:  23.23747
+ CYCLE:   219 TIME:   0.412 TIME LEFT:  2.00D  GRAD.:    25.025 HEAT:  23.19985
+ CYCLE:   220 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:    27.283 HEAT:  23.15121
+ CYCLE:   221 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:    57.072 HEAT:  23.14304
+ CYCLE:   222 TIME:   0.324 TIME LEFT:  2.00D  GRAD.:    15.561 HEAT:  23.11918
+ CYCLE:   223 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:    14.136 HEAT:  23.11533
+ CYCLE:   224 TIME:   0.363 TIME LEFT:  2.00D  GRAD.:    25.209 HEAT:  23.10246
+ CYCLE:   225 TIME:   0.393 TIME LEFT:  2.00D  GRAD.:    37.334 HEAT:  23.08740
+ CYCLE:   226 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:    35.579 HEAT:  23.07709
+ CYCLE:   227 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:    36.194 HEAT:  23.05896
+ CYCLE:   228 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:    25.668 HEAT:  23.04573
+ CYCLE:   229 TIME:   0.369 TIME LEFT:  2.00D  GRAD.:    14.498 HEAT:  23.02826
+ CYCLE:   230 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:    16.033 HEAT:  23.01222
+ CYCLE:   231 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:    20.593 HEAT:  22.99108
+ CYCLE:   232 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:    32.101 HEAT:  22.96368
+ CYCLE:   233 TIME:   0.348 TIME LEFT:  2.00D  GRAD.:    18.738 HEAT:  22.93168
+ CYCLE:   234 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:    18.560 HEAT:  22.90802
+ CYCLE:   235 TIME:   0.369 TIME LEFT:  2.00D  GRAD.:    44.157 HEAT:  22.87166
+ CYCLE:   236 TIME:   0.352 TIME LEFT:  2.00D  GRAD.:    39.101 HEAT:  22.83898
+ CYCLE:   237 TIME:   0.416 TIME LEFT:  2.00D  GRAD.:    30.874 HEAT:  22.79585
+ CYCLE:   238 TIME:   0.398 TIME LEFT:  2.00D  GRAD.:    40.708 HEAT:  22.70223
+ CYCLE:   239 TIME:   0.404 TIME LEFT:  2.00D  GRAD.:    48.490 HEAT:  22.62237
+ CYCLE:   240 TIME:   0.406 TIME LEFT:  2.00D  GRAD.:    99.522 HEAT:  22.62509
+ CYCLE:   241 TIME:   0.461 TIME LEFT:  2.00D  GRAD.:    44.959 HEAT:  22.54556
+ CYCLE:   242 TIME:   0.457 TIME LEFT:  2.00D  GRAD.:    24.091 HEAT:  22.51914
+ CYCLE:   243 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:    36.690 HEAT:  22.49878
+ CYCLE:   244 TIME:   0.369 TIME LEFT:  2.00D  GRAD.:    44.672 HEAT:  22.46544
+ CYCLE:   245 TIME:   0.348 TIME LEFT:  2.00D  GRAD.:    39.595 HEAT:  22.39823
+ CYCLE:   246 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:    73.410 HEAT:  22.34473
+ CYCLE:   247 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:    32.974 HEAT:  22.27839
+ CYCLE:   248 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:    26.774 HEAT:  22.26262
+ CYCLE:   249 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:    69.204 HEAT:  22.23267
+ CYCLE:   250 TIME:   0.383 TIME LEFT:  2.00D  GRAD.:    36.784 HEAT:  22.20687
+ CYCLE:   251 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:    15.780 HEAT:  22.19452
+ CYCLE:   252 TIME:   0.371 TIME LEFT:  2.00D  GRAD.:    13.721 HEAT:  22.18670
+ CYCLE:   253 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:    20.691 HEAT:  22.15462
+ CYCLE:   254 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:    38.854 HEAT:  22.12214
+ CYCLE:   255 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:    30.196 HEAT:  22.09361
+ CYCLE:   256 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:    29.067 HEAT:  22.07480
+ CYCLE:   257 TIME:   0.311 TIME LEFT:  2.00D  GRAD.:    16.510 HEAT:  22.05735
+ CYCLE:   258 TIME:   0.324 TIME LEFT:  2.00D  GRAD.:    20.609 HEAT:  22.04275
+ CYCLE:   259 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:    19.338 HEAT:  22.02642
+ CYCLE:   260 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:    76.676 HEAT:  22.02595
+ CYCLE:   261 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:    15.479 HEAT:  21.99066
+ CYCLE:   262 TIME:   0.352 TIME LEFT:  2.00D  GRAD.:    14.477 HEAT:  21.98141
+ CYCLE:   263 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:    36.003 HEAT:  21.96605
+ CYCLE:   264 TIME:   0.348 TIME LEFT:  2.00D  GRAD.:    17.599 HEAT:  21.95042
+ CYCLE:   265 TIME:   0.371 TIME LEFT:  2.00D  GRAD.:    13.772 HEAT:  21.94105
+ CYCLE:   266 TIME:   0.408 TIME LEFT:  2.00D  GRAD.:    20.158 HEAT:  21.91775
+ CYCLE:   267 TIME:   0.410 TIME LEFT:  2.00D  GRAD.:    20.891 HEAT:  21.89665
+ CYCLE:   268 TIME:   0.424 TIME LEFT:  2.00D  GRAD.:    56.649 HEAT:  21.88602
+ CYCLE:   269 TIME:   0.426 TIME LEFT:  2.00D  GRAD.:    50.990 HEAT:  21.85336
+ CYCLE:   270 TIME:   0.396 TIME LEFT:  2.00D  GRAD.:    20.385 HEAT:  21.83257
+ CYCLE:   271 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:    14.629 HEAT:  21.82669
+ CYCLE:   272 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:    18.866 HEAT:  21.81570
+ CYCLE:   273 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:    26.426 HEAT:  21.78869
+ CYCLE:   274 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:    55.141 HEAT:  21.78327
+ CYCLE:   275 TIME:   0.314 TIME LEFT:  2.00D  GRAD.:    19.914 HEAT:  21.74892
+ CYCLE:   276 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:    13.830 HEAT:  21.73741
+ CYCLE:   277 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:    20.526 HEAT:  21.71994
+ CYCLE:   278 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:    19.545 HEAT:  21.70361
+ CYCLE:   279 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:    62.149 HEAT:  21.70243
+ CYCLE:   280 TIME:   0.318 TIME LEFT:  2.00D  GRAD.:    24.047 HEAT:  21.67690
+ CYCLE:   281 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:    13.171 HEAT:  21.66139
+ CYCLE:   282 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:    26.516 HEAT:  21.64051
+ CYCLE:   283 TIME:   0.400 TIME LEFT:  2.00D  GRAD.:    34.433 HEAT:  21.61944
+ CYCLE:   284 TIME:   0.391 TIME LEFT:  2.00D  GRAD.:    16.467 HEAT:  21.58362
+ CYCLE:   285 TIME:   0.396 TIME LEFT:  2.00D  GRAD.:    43.256 HEAT:  21.56913
+ CYCLE:   286 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:    33.868 HEAT:  21.54703
+ CYCLE:   287 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:    23.347 HEAT:  21.53646
+ CYCLE:   288 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:    13.090 HEAT:  21.52466
+ CYCLE:   289 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:    25.834 HEAT:  21.51371
+ CYCLE:   290 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:    18.115 HEAT:  21.49974
+ CYCLE:   291 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:    14.446 HEAT:  21.48971
+ CYCLE:   292 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:    40.178 HEAT:  21.47950
+ CYCLE:   293 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:    16.307 HEAT:  21.46031
+ CYCLE:   294 TIME:   0.318 TIME LEFT:  2.00D  GRAD.:    16.010 HEAT:  21.45032
+ CYCLE:   295 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:    11.993 HEAT:  21.44070
+ CYCLE:   296 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:    17.047 HEAT:  21.42949
+ CYCLE:   297 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:    12.744 HEAT:  21.41446
+ CYCLE:   298 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:    12.084 HEAT:  21.40152
+ CYCLE:   299 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:    27.875 HEAT:  21.38683
+ CYCLE:   300 TIME:   0.369 TIME LEFT:  2.00D  GRAD.:    13.679 HEAT:  21.36411
+ CYCLE:   301 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:    31.961 HEAT:  21.35633
+ CYCLE:   302 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:    10.392 HEAT:  21.34232
+ CYCLE:   303 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:    10.555 HEAT:  21.33449
+ CYCLE:   304 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:    28.131 HEAT:  21.32819
+ CYCLE:   305 TIME:   0.318 TIME LEFT:  2.00D  GRAD.:    17.866 HEAT:  21.31837
+ CYCLE:   306 TIME:   0.377 TIME LEFT:  2.00D  GRAD.:    17.160 HEAT:  21.30505
+ CYCLE:   307 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:    60.526 HEAT:  21.30064
+ CYCLE:   308 TIME:   0.314 TIME LEFT:  2.00D  GRAD.:    22.414 HEAT:  21.28771
+ CYCLE:   309 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:    11.463 HEAT:  21.28204
+ CYCLE:   310 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:    15.376 HEAT:  21.27701
+ CYCLE:   311 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:    17.980 HEAT:  21.26844
+ CYCLE:   312 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:    26.363 HEAT:  21.25704
+ CYCLE:   313 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:    17.215 HEAT:  21.24374
+ CYCLE:   314 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:    11.282 HEAT:  21.23453
+ CYCLE:   315 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:    15.170 HEAT:  21.22461
+ CYCLE:   316 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:    18.186 HEAT:  21.21359
+ CYCLE:   317 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:    14.850 HEAT:  21.19992
+ CYCLE:   318 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:    61.130 HEAT:  21.21192
+ CYCLE:   319 TIME:   0.352 TIME LEFT:  2.00D  GRAD.:    37.007 HEAT:  21.19323
+ CYCLE:   320 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:     9.903 HEAT:  21.17807
+ CYCLE:   321 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:     9.878 HEAT:  21.17414
+ CYCLE:   322 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:    17.098 HEAT:  21.16001
+ CYCLE:   323 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:   126.976 HEAT:  21.19710
+ CYCLE:   324 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:    17.716 HEAT:  21.14270
+ CYCLE:   325 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:    12.384 HEAT:  21.13950
+ CYCLE:   326 TIME:   0.387 TIME LEFT:  2.00D  GRAD.:    16.343 HEAT:  21.13031
+ CYCLE:   327 TIME:   0.402 TIME LEFT:  2.00D  GRAD.:    16.312 HEAT:  21.11809
+ CYCLE:   328 TIME:   0.352 TIME LEFT:  2.00D  GRAD.:    34.463 HEAT:  21.10249
+ CYCLE:   329 TIME:   0.414 TIME LEFT:  2.00D  GRAD.:    13.237 HEAT:  21.08361
+ CYCLE:   330 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:    11.130 HEAT:  21.07564
+ CYCLE:   331 TIME:   0.387 TIME LEFT:  2.00D  GRAD.:    12.740 HEAT:  21.06569
+ CYCLE:   332 TIME:   0.383 TIME LEFT:  2.00D  GRAD.:     9.943 HEAT:  21.05599
+ CYCLE:   333 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:    26.462 HEAT:  21.04896
+ CYCLE:   334 TIME:   0.324 TIME LEFT:  2.00D  GRAD.:    10.122 HEAT:  21.04042
+ CYCLE:   335 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:    14.062 HEAT:  21.03478
+ CYCLE:   336 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:    11.184 HEAT:  21.02963
+ CYCLE:   337 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:    48.909 HEAT:  21.02620
+ CYCLE:   338 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:    61.385 HEAT:  21.02753
+ CYCLE:   339 TIME:   0.371 TIME LEFT:  2.00D  GRAD.:     9.349 HEAT:  21.01328
+ CYCLE:   340 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:     7.410 HEAT:  21.01232
+ CYCLE:   341 TIME:   0.363 TIME LEFT:  2.00D  GRAD.:    12.005 HEAT:  21.00862
+ CYCLE:   342 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:    15.439 HEAT:  21.00318
+ CYCLE:   343 TIME:   0.361 TIME LEFT:  2.00D  GRAD.:    21.939 HEAT:  20.99306
+ CYCLE:   344 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:    29.580 HEAT:  20.98991
+ CYCLE:   345 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:    10.437 HEAT:  20.98064
+ CYCLE:   346 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:     8.938 HEAT:  20.97855
+ CYCLE:   347 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:    10.942 HEAT:  20.97326
+ CYCLE:   348 TIME:   0.318 TIME LEFT:  2.00D  GRAD.:    15.444 HEAT:  20.96349
+ CYCLE:   349 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:    57.553 HEAT:  20.97761
+ CYCLE:   350 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:    14.512 HEAT:  20.95736
+ CYCLE:   351 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:     8.985 HEAT:  20.95503
+ CYCLE:   352 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:    11.307 HEAT:  20.95181
+ CYCLE:   353 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:    15.755 HEAT:  20.94852
+ CYCLE:   354 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:    16.326 HEAT:  20.94420
+ CYCLE:   355 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:    54.871 HEAT:  20.94833
+ CYCLE:   356 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:    51.035 HEAT:  20.95310
+ CYCLE:   357 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:    22.893 HEAT:  20.93823
+ CYCLE:   358 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:     9.687 HEAT:  20.93620
+ CYCLE:   359 TIME:   0.352 TIME LEFT:  2.00D  GRAD.:     9.739 HEAT:  20.93493
+ CYCLE:   360 TIME:   0.383 TIME LEFT:  2.00D  GRAD.:     9.461 HEAT:  20.93325
+ CYCLE:   361 TIME:   0.398 TIME LEFT:  2.00D  GRAD.:     8.654 HEAT:  20.93191
+ CYCLE:   362 TIME:   0.400 TIME LEFT:  2.00D  GRAD.:    67.411 HEAT:  20.97207
+ CYCLE:   363 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:    11.551 HEAT:  20.92383
+ CYCLE:   364 TIME:   0.348 TIME LEFT:  2.00D  GRAD.:     8.174 HEAT:  20.92171
+ CYCLE:   365 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:    12.071 HEAT:  20.91617
+ CYCLE:   366 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:    10.108 HEAT:  20.91408
+ CYCLE:   367 TIME:   0.314 TIME LEFT:  2.00D  GRAD.:     8.625 HEAT:  20.90743
+ CYCLE:   368 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:    62.931 HEAT:  20.92308
+ CYCLE:   369 TIME:   0.398 TIME LEFT:  2.00D  GRAD.:     9.986 HEAT:  20.90419
+ CYCLE:   370 TIME:   0.414 TIME LEFT:  2.00D  GRAD.:     8.510 HEAT:  20.90289
+ CYCLE:   371 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:     6.445 HEAT:  20.89714
+ CYCLE:   372 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:     8.931 HEAT:  20.89390
+ CYCLE:   373 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:    49.673 HEAT:  20.89894
+ CYCLE:   374 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:     7.635 HEAT:  20.88941
+ CYCLE:   375 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:     5.160 HEAT:  20.88755
+ CYCLE:   376 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:     8.247 HEAT:  20.88473
+ CYCLE:   377 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     7.708 HEAT:  20.88108
+ CYCLE:   378 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:    11.679 HEAT:  20.87307
+ CYCLE:   379 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:    14.596 HEAT:  20.86741
+ CYCLE:   380 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:    14.398 HEAT:  20.86261
+ CYCLE:   381 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:     9.319 HEAT:  20.85954
+ CYCLE:   382 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     6.648 HEAT:  20.85595
+ CYCLE:   383 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:    18.890 HEAT:  20.85137
+ CYCLE:   384 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:    19.712 HEAT:  20.84887
+ CYCLE:   385 TIME:   0.389 TIME LEFT:  2.00D  GRAD.:     8.073 HEAT:  20.84678
+ CYCLE:   386 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:     5.349 HEAT:  20.84557
+ CYCLE:   387 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     7.314 HEAT:  20.84339
+ CYCLE:   388 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:     9.355 HEAT:  20.84082
+ CYCLE:   389 TIME:   0.383 TIME LEFT:  2.00D  GRAD.:    73.343 HEAT:  20.85848
+ CYCLE:   390 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:    10.861 HEAT:  20.83668
+ CYCLE:   391 TIME:   0.385 TIME LEFT:  2.00D  GRAD.:     8.228 HEAT:  20.83512
+ CYCLE:   392 TIME:   0.387 TIME LEFT:  2.00D  GRAD.:    10.259 HEAT:  20.83053
+ CYCLE:   393 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:    19.779 HEAT:  20.83000
+ CYCLE:   394 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:     6.700 HEAT:  20.82653
+ CYCLE:   395 TIME:   0.324 TIME LEFT:  2.00D  GRAD.:     5.471 HEAT:  20.82554
+ CYCLE:   396 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:     8.419 HEAT:  20.82270
+ CYCLE:   397 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:     8.288 HEAT:  20.81967
+ CYCLE:   398 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:     9.259 HEAT:  20.81664
+ CYCLE:   399 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:    27.815 HEAT:  20.81657
+ CYCLE:   400 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:     9.830 HEAT:  20.81357
+ CYCLE:   401 TIME:   0.348 TIME LEFT:  2.00D  GRAD.:     5.669 HEAT:  20.81250
+ CYCLE:   402 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:     4.985 HEAT:  20.81130
+ CYCLE:   403 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:     5.358 HEAT:  20.81038
+ CYCLE:   404 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:    17.645 HEAT:  20.80954
+ CYCLE:   405 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:     8.142 HEAT:  20.80743
+ CYCLE:   406 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     4.482 HEAT:  20.80611
+ CYCLE:   407 TIME:   0.318 TIME LEFT:  2.00D  GRAD.:     5.261 HEAT:  20.80479
+ CYCLE:   408 TIME:   0.352 TIME LEFT:  2.00D  GRAD.:     5.516 HEAT:  20.80317
+ CYCLE:   409 TIME:   0.375 TIME LEFT:  2.00D  GRAD.:    13.669 HEAT:  20.80194
+ CYCLE:   410 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:     5.764 HEAT:  20.79915
+ CYCLE:   411 TIME:   0.402 TIME LEFT:  2.00D  GRAD.:     4.184 HEAT:  20.79749
+ CYCLE:   412 TIME:   0.379 TIME LEFT:  2.00D  GRAD.:     5.319 HEAT:  20.79592
+ CYCLE:   413 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:    16.494 HEAT:  20.79459
+ CYCLE:   414 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:    10.233 HEAT:  20.79273
+ CYCLE:   415 TIME:   0.324 TIME LEFT:  2.00D  GRAD.:     4.899 HEAT:  20.78996
+ CYCLE:   416 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     4.498 HEAT:  20.78925
+ CYCLE:   417 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:    33.165 HEAT:  20.79569
+ CYCLE:   418 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:     4.472 HEAT:  20.78709
+ CYCLE:   419 TIME:   0.361 TIME LEFT:  2.00D  GRAD.:     3.036 HEAT:  20.78679
+ CYCLE:   420 TIME:   0.361 TIME LEFT:  2.00D  GRAD.:     5.223 HEAT:  20.78621
+ CYCLE:   421 TIME:   0.305 TIME LEFT:  2.00D  GRAD.:     7.520 HEAT:  20.78552
+ CYCLE:   422 TIME:   0.318 TIME LEFT:  2.00D  GRAD.:     8.900 HEAT:  20.78462
+ CYCLE:   423 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:    14.190 HEAT:  20.78426
+ CYCLE:   424 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:     5.289 HEAT:  20.78300
+ CYCLE:   425 TIME:   0.400 TIME LEFT:  2.00D  GRAD.:     4.462 HEAT:  20.78247
+ CYCLE:   426 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:     5.322 HEAT:  20.78195
+ CYCLE:   427 TIME:   0.395 TIME LEFT:  2.00D  GRAD.:     5.376 HEAT:  20.78070
+ CYCLE:   428 TIME:   0.395 TIME LEFT:  2.00D  GRAD.:     9.689 HEAT:  20.78039
+ CYCLE:   429 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:     4.479 HEAT:  20.77955
+ CYCLE:   430 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:     3.216 HEAT:  20.77881
+ CYCLE:   431 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:     4.911 HEAT:  20.77792
+ CYCLE:   432 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:     3.591 HEAT:  20.77681
+ CYCLE:   433 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:     5.581 HEAT:  20.77567
+ CYCLE:   434 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:    35.006 HEAT:  20.78689
+ CYCLE:   435 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     9.433 HEAT:  20.77572
+ CYCLE:   436 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:    16.360 HEAT:  20.77648
+ CYCLE:   437 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     3.923 HEAT:  20.77418
+ CYCLE:   438 TIME:   0.314 TIME LEFT:  2.00D  GRAD.:     3.013 HEAT:  20.77371
+ CYCLE:   439 TIME:   0.324 TIME LEFT:  2.00D  GRAD.:     8.942 HEAT:  20.77237
+ CYCLE:   440 TIME:   0.311 TIME LEFT:  2.00D  GRAD.:     6.097 HEAT:  20.77116
+ CYCLE:   441 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     5.323 HEAT:  20.77008
+ CYCLE:   442 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:     4.196 HEAT:  20.76860
+ CYCLE:   443 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:     3.760 HEAT:  20.76790
+ CYCLE:   444 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:    28.653 HEAT:  20.77106
+ CYCLE:   445 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:     4.120 HEAT:  20.76704
+ CYCLE:   446 TIME:   0.363 TIME LEFT:  2.00D  GRAD.:     3.067 HEAT:  20.76675
+ CYCLE:   447 TIME:   0.371 TIME LEFT:  2.00D  GRAD.:     4.359 HEAT:  20.76649
+ CYCLE:   448 TIME:   0.396 TIME LEFT:  2.00D  GRAD.:     2.711 HEAT:  20.76492
+ CYCLE:   449 TIME:   0.412 TIME LEFT:  2.00D  GRAD.:     2.625 HEAT:  20.76349
+ CYCLE:   450 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:    12.323 HEAT:  20.76303
+ CYCLE:   451 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:     5.955 HEAT:  20.76161
+ CYCLE:   452 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:     2.696 HEAT:  20.76016
+ CYCLE:   453 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:     3.458 HEAT:  20.75951
+ CYCLE:   454 TIME:   0.375 TIME LEFT:  2.00D  GRAD.:    17.794 HEAT:  20.75979
+ CYCLE:   455 TIME:   0.426 TIME LEFT:  2.00D  GRAD.:     3.967 HEAT:  20.75845
+ CYCLE:   456 TIME:   0.404 TIME LEFT:  2.00D  GRAD.:     3.023 HEAT:  20.75800
+ CYCLE:   457 TIME:   0.441 TIME LEFT:  2.00D  GRAD.:     5.671 HEAT:  20.75678
+ CYCLE:   458 TIME:   0.406 TIME LEFT:  2.00D  GRAD.:     2.824 HEAT:  20.75619
+ CYCLE:   459 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     7.076 HEAT:  20.75563
+ CYCLE:   460 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:     4.470 HEAT:  20.75489
+ CYCLE:   461 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:     4.262 HEAT:  20.75445
+ CYCLE:   462 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     3.321 HEAT:  20.75315
+ CYCLE:   463 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     5.123 HEAT:  20.75034
+ CYCLE:   464 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:    11.649 HEAT:  20.75054
+ CYCLE:   465 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:     3.891 HEAT:  20.74869
+ CYCLE:   466 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:     2.660 HEAT:  20.74790
+ CYCLE:   467 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:     4.120 HEAT:  20.74633
+ CYCLE:   468 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     7.582 HEAT:  20.74504
+ CYCLE:   469 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:    60.135 HEAT:  20.75929
+ CYCLE:   470 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:     3.573 HEAT:  20.74445
+ CYCLE:   471 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     2.558 HEAT:  20.74490
+ CYCLE:   472 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:    39.163 HEAT:  20.75741
+ CYCLE:   473 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:     3.754 HEAT:  20.74334
+ CYCLE:   474 TIME:   0.309 TIME LEFT:  2.00D  GRAD.:     3.815 HEAT:  20.74300
+ CYCLE:   475 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:     5.413 HEAT:  20.74135
+ CYCLE:   476 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:     9.987 HEAT:  20.73971
+ CYCLE:   477 TIME:   0.314 TIME LEFT:  2.00D  GRAD.:     5.285 HEAT:  20.73807
+ CYCLE:   478 TIME:   0.303 TIME LEFT:  2.00D  GRAD.:     4.912 HEAT:  20.73753
+ CYCLE:   479 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:     4.504 HEAT:  20.73495
+ CYCLE:   480 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:    13.504 HEAT:  20.73549
+ CYCLE:   481 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     3.339 HEAT:  20.73280
+ CYCLE:   482 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:     3.281 HEAT:  20.73213
+ CYCLE:   483 TIME:   0.377 TIME LEFT:  2.00D  GRAD.:     5.281 HEAT:  20.73128
+ CYCLE:   484 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:    18.213 HEAT:  20.73110
+ CYCLE:   485 TIME:   0.406 TIME LEFT:  2.00D  GRAD.:     4.550 HEAT:  20.72922
+ CYCLE:   486 TIME:   0.369 TIME LEFT:  2.00D  GRAD.:     4.928 HEAT:  20.72889
+ CYCLE:   487 TIME:   0.396 TIME LEFT:  2.00D  GRAD.:     5.296 HEAT:  20.72807
+ CYCLE:   488 TIME:   0.383 TIME LEFT:  2.00D  GRAD.:     7.035 HEAT:  20.72677
+ CYCLE:   489 TIME:   0.348 TIME LEFT:  2.00D  GRAD.:     4.503 HEAT:  20.72613
+ CYCLE:   490 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:     7.413 HEAT:  20.72525
+ CYCLE:   491 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     3.255 HEAT:  20.72437
+ CYCLE:   492 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:     2.043 HEAT:  20.72408
+ CYCLE:   493 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:     3.989 HEAT:  20.72378
+ CYCLE:   494 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:     3.757 HEAT:  20.72335
+ CYCLE:   495 TIME:   0.391 TIME LEFT:  2.00D  GRAD.:     7.107 HEAT:  20.72446
+ CYCLE:   496 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:    23.537 HEAT:  20.72612
+ CYCLE:   497 TIME:   0.363 TIME LEFT:  2.00D  GRAD.:    37.155 HEAT:  20.73336
+ CYCLE:   498 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:    42.062 HEAT:  20.73439
+ CYCLE:   499 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:    14.026 HEAT:  20.72916
+ CYCLE:   500 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:    24.803 HEAT:  20.72902
+ CYCLE:   501 TIME:   0.391 TIME LEFT:  2.00D  GRAD.:    46.437 HEAT:  20.74467
+ CYCLE:   502 TIME:   0.383 TIME LEFT:  2.00D  GRAD.:   133.999 HEAT:  20.78736
+ CYCLE:   503 TIME:   0.379 TIME LEFT:  2.00D  GRAD.:    46.443 HEAT:  20.73783
+ CYCLE:   504 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:    23.511 HEAT:  20.74378
+ CYCLE:   505 TIME:   0.371 TIME LEFT:  2.00D  GRAD.:    74.156 HEAT:  20.75913
+ CYCLE:   506 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:   373.709 HEAT:  21.36088
+ CYCLE:   507 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:   211.884 HEAT:  20.99042
+ CYCLE:   508 TIME:   0.379 TIME LEFT:  2.00D  GRAD.:   360.727 HEAT:  21.23770
+ CYCLE:   509 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:   103.327 HEAT:  20.87782
+ CYCLE:   510 TIME:   0.422 TIME LEFT:  2.00D  GRAD.:    90.747 HEAT:  20.84274
+ CYCLE:   511 TIME:   0.393 TIME LEFT:  2.00D  GRAD.:   263.500 HEAT:  21.18483
+ CYCLE:   512 TIME:   0.402 TIME LEFT:  2.00D  GRAD.:    93.531 HEAT:  20.75593
+ CYCLE:   513 TIME:   0.375 TIME LEFT:  2.00D  GRAD.:    48.530 HEAT:  20.74359
+ CYCLE:   514 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:    16.603 HEAT:  20.72608
+ CYCLE:   515 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     8.324 HEAT:  20.72133
+ CYCLE:   516 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:     2.341 HEAT:  20.72089
+ CYCLE:   517 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     3.585 HEAT:  20.72068
+ CYCLE:   518 TIME:   0.314 TIME LEFT:  2.00D  GRAD.:     3.159 HEAT:  20.72038
+ CYCLE:   519 TIME:   0.305 TIME LEFT:  2.00D  GRAD.:     2.702 HEAT:  20.71985
+ CYCLE:   520 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     5.246 HEAT:  20.71888
+ CYCLE:   521 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:     2.996 HEAT:  20.71833
+ CYCLE:   522 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:     2.855 HEAT:  20.71799
+ CYCLE:   523 TIME:   0.393 TIME LEFT:  2.00D  GRAD.:     2.525 HEAT:  20.71738
+ CYCLE:   524 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     2.649 HEAT:  20.71619
+ CYCLE:   525 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:     2.538 HEAT:  20.71488
+ CYCLE:   526 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:    16.469 HEAT:  20.71477
+ CYCLE:   527 TIME:   0.379 TIME LEFT:  2.00D  GRAD.:     2.622 HEAT:  20.71361
+ CYCLE:   528 TIME:   0.389 TIME LEFT:  2.00D  GRAD.:     2.178 HEAT:  20.71309
+ CYCLE:   529 TIME:   0.406 TIME LEFT:  2.00D  GRAD.:     3.746 HEAT:  20.71271
+ CYCLE:   530 TIME:   0.398 TIME LEFT:  2.00D  GRAD.:    13.805 HEAT:  20.71430
+ CYCLE:   531 TIME:   0.389 TIME LEFT:  2.00D  GRAD.:     3.299 HEAT:  20.71164
+ CYCLE:   532 TIME:   0.377 TIME LEFT:  2.00D  GRAD.:     3.046 HEAT:  20.71134
+ CYCLE:   533 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:     1.841 HEAT:  20.71086
+ CYCLE:   534 TIME:   0.352 TIME LEFT:  2.00D  GRAD.:     2.113 HEAT:  20.71010
+ CYCLE:   535 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:    25.951 HEAT:  20.71534
+ CYCLE:   536 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:     3.395 HEAT:  20.70960
+ CYCLE:   537 TIME:   0.305 TIME LEFT:  2.00D  GRAD.:     2.549 HEAT:  20.70941
+ CYCLE:   538 TIME:   0.318 TIME LEFT:  2.00D  GRAD.:     1.475 HEAT:  20.70889
+ CYCLE:   539 TIME:   0.408 TIME LEFT:  2.00D  GRAD.:     2.757 HEAT:  20.70849
+ CYCLE:   540 TIME:   0.438 TIME LEFT:  2.00D  GRAD.:    15.294 HEAT:  20.70914
+ CYCLE:   541 TIME:   0.438 TIME LEFT:  2.00D  GRAD.:     2.621 HEAT:  20.70830
+ CYCLE:   542 TIME:   0.541 TIME LEFT:  2.00D  GRAD.:     2.235 HEAT:  20.70820
+ CYCLE:   543 TIME:   0.510 TIME LEFT:  2.00D  GRAD.:     5.256 HEAT:  20.70859
+ CYCLE:   544 TIME:   0.564 TIME LEFT:  2.00D  GRAD.:     3.733 HEAT:  20.70783
+ CYCLE:   545 TIME:   0.553 TIME LEFT:  2.00D  GRAD.:    48.510 HEAT:  20.73332
+ CYCLE:   546 TIME:   0.580 TIME LEFT:  2.00D  GRAD.:    10.489 HEAT:  20.70937
+ CYCLE:   547 TIME:   0.455 TIME LEFT:  2.00D  GRAD.:    10.215 HEAT:  20.70868
+ CYCLE:   548 TIME:   0.467 TIME LEFT:  2.00D  GRAD.:    16.294 HEAT:  20.71341
+ CYCLE:   549 TIME:   0.461 TIME LEFT:  2.00D  GRAD.:    26.370 HEAT:  20.71927
+ CYCLE:   550 TIME:   0.490 TIME LEFT:  2.00D  GRAD.:    41.569 HEAT:  20.74458
+ CYCLE:   551 TIME:   0.537 TIME LEFT:  2.00D  GRAD.:    25.226 HEAT:  20.71994
+ CYCLE:   552 TIME:   0.473 TIME LEFT:  2.00D  GRAD.:     7.485 HEAT:  20.70768
+ CYCLE:   553 TIME:   0.502 TIME LEFT:  2.00D  GRAD.:    71.763 HEAT:  20.79495
+ CYCLE:   554 TIME:   0.461 TIME LEFT:  2.00D  GRAD.:    58.227 HEAT:  20.75825
+ CYCLE:   555 TIME:   0.449 TIME LEFT:  2.00D  GRAD.:   192.348 HEAT:  21.06343
+ CYCLE:   556 TIME:   0.477 TIME LEFT:  2.00D  GRAD.:   251.325 HEAT:  21.07129
+ CYCLE:   557 TIME:   0.482 TIME LEFT:  2.00D  GRAD.:   340.837 HEAT:  21.13451
+ CYCLE:   558 TIME:   0.574 TIME LEFT:  2.00D  GRAD.:    97.211 HEAT:  20.77335
+ CYCLE:   559 TIME:   0.502 TIME LEFT:  2.00D  GRAD.:    52.057 HEAT:  20.74173
+ CYCLE:   560 TIME:   0.529 TIME LEFT:  2.00D  GRAD.:    58.417 HEAT:  20.73834
+ CYCLE:   561 TIME:   0.529 TIME LEFT:  2.00D  GRAD.:   156.796 HEAT:  21.08489
+ CYCLE:   562 TIME:   0.561 TIME LEFT:  2.00D  GRAD.:   159.688 HEAT:  21.06692
+ CYCLE:   563 TIME:   0.455 TIME LEFT:  2.00D  GRAD.:    12.461 HEAT:  20.70796
+ CYCLE:   564 TIME:   0.445 TIME LEFT:  2.00D  GRAD.:     6.080 HEAT:  20.70705
+ CYCLE:   565 TIME:   0.451 TIME LEFT:  2.00D  GRAD.:     3.371 HEAT:  20.70527
+ CYCLE:   566 TIME:   0.486 TIME LEFT:  2.00D  GRAD.:     2.192 HEAT:  20.70527
+ CYCLE:   567 TIME:   0.412 TIME LEFT:  2.00D  GRAD.:     1.904 HEAT:  20.70497
+ CYCLE:   568 TIME:   0.502 TIME LEFT:  2.00D  GRAD.:    57.276 HEAT:  20.89451
+ CYCLE:   569 TIME:   0.514 TIME LEFT:  2.00D  GRAD.:    11.743 HEAT:  20.71005
+ CYCLE:   570 TIME:   0.602 TIME LEFT:  2.00D  GRAD.:     7.539 HEAT:  20.70468
+ CYCLE:   571 TIME:   0.455 TIME LEFT:  2.00D  GRAD.:    29.344 HEAT:  20.70781
+ CYCLE:   572 TIME:   0.426 TIME LEFT:  2.00D  GRAD.:     1.895 HEAT:  20.70377
+ CYCLE:   573 TIME:   0.432 TIME LEFT:  2.00D  GRAD.:     2.592 HEAT:  20.70383
+ CYCLE:   574 TIME:   0.404 TIME LEFT:  2.00D  GRAD.:     4.755 HEAT:  20.70349
+ CYCLE:   575 TIME:   0.406 TIME LEFT:  2.00D  GRAD.:     2.676 HEAT:  20.70325
+ CYCLE:   576 TIME:   0.402 TIME LEFT:  2.00D  GRAD.:     2.251 HEAT:  20.70303
+ CYCLE:   577 TIME:   0.428 TIME LEFT:  2.00D  GRAD.:     2.627 HEAT:  20.70263
+ CYCLE:   578 TIME:   0.426 TIME LEFT:  2.00D  GRAD.:     2.799 HEAT:  20.70201
+ CYCLE:   579 TIME:   0.443 TIME LEFT:  2.00D  GRAD.:     3.069 HEAT:  20.70100
+ CYCLE:   580 TIME:   0.426 TIME LEFT:  2.00D  GRAD.:     7.003 HEAT:  20.70040
+ CYCLE:   581 TIME:   0.410 TIME LEFT:  2.00D  GRAD.:     2.692 HEAT:  20.69988
+ CYCLE:   582 TIME:   0.410 TIME LEFT:  2.00D  GRAD.:     2.102 HEAT:  20.69954
+ CYCLE:   583 TIME:   0.402 TIME LEFT:  2.00D  GRAD.:     2.336 HEAT:  20.69930
+ CYCLE:   584 TIME:   0.445 TIME LEFT:  2.00D  GRAD.:     2.725 HEAT:  20.69852
+ CYCLE:   585 TIME:   0.418 TIME LEFT:  2.00D  GRAD.:    40.957 HEAT:  20.70695
+ CYCLE:   586 TIME:   0.410 TIME LEFT:  2.00D  GRAD.:     2.455 HEAT:  20.69796
+ CYCLE:   587 TIME:   0.404 TIME LEFT:  2.00D  GRAD.:     2.334 HEAT:  20.69782
+ CYCLE:   588 TIME:   0.418 TIME LEFT:  2.00D  GRAD.:    16.152 HEAT:  20.69939
+ CYCLE:   589 TIME:   0.426 TIME LEFT:  2.00D  GRAD.:     3.021 HEAT:  20.69720
+ CYCLE:   590 TIME:   0.428 TIME LEFT:  2.00D  GRAD.:     2.528 HEAT:  20.69701
+ CYCLE:   591 TIME:   0.400 TIME LEFT:  2.00D  GRAD.:     2.340 HEAT:  20.69674
+ CYCLE:   592 TIME:   0.439 TIME LEFT:  2.00D  GRAD.:     6.171 HEAT:  20.69597
+ CYCLE:   593 TIME:   0.416 TIME LEFT:  2.00D  GRAD.:     2.756 HEAT:  20.69533
+ CYCLE:   594 TIME:   0.445 TIME LEFT:  2.00D  GRAD.:     5.924 HEAT:  20.69518
+ CYCLE:   595 TIME:   0.395 TIME LEFT:  2.00D  GRAD.:     5.447 HEAT:  20.69462
+ CYCLE:   596 TIME:   0.389 TIME LEFT:  2.00D  GRAD.:     2.998 HEAT:  20.69434
+ CYCLE:   597 TIME:   0.371 TIME LEFT:  2.00D  GRAD.:     2.370 HEAT:  20.69388
+ CYCLE:   598 TIME:   0.420 TIME LEFT:  2.00D  GRAD.:     4.104 HEAT:  20.69343
+ CYCLE:   599 TIME:   0.385 TIME LEFT:  2.00D  GRAD.:     3.829 HEAT:  20.69301
+ CYCLE:   600 TIME:   0.393 TIME LEFT:  2.00D  GRAD.:     3.100 HEAT:  20.69264
+ CYCLE:   601 TIME:   0.391 TIME LEFT:  2.00D  GRAD.:     2.432 HEAT:  20.69208
+ CYCLE:   602 TIME:   0.412 TIME LEFT:  2.00D  GRAD.:     4.824 HEAT:  20.69121
+ CYCLE:   603 TIME:   0.404 TIME LEFT:  2.00D  GRAD.:    13.458 HEAT:  20.69167
+ CYCLE:   604 TIME:   0.406 TIME LEFT:  2.00D  GRAD.:     2.809 HEAT:  20.69042
+ CYCLE:   605 TIME:   0.438 TIME LEFT:  2.00D  GRAD.:     1.821 HEAT:  20.69031
+ CYCLE:   606 TIME:   0.447 TIME LEFT:  2.00D  GRAD.:     2.605 HEAT:  20.69007
+ CYCLE:   607 TIME:   0.387 TIME LEFT:  2.00D  GRAD.:     3.967 HEAT:  20.68969
+ CYCLE:   608 TIME:   0.393 TIME LEFT:  2.00D  GRAD.:     5.667 HEAT:  20.68896
+ CYCLE:   609 TIME:   0.404 TIME LEFT:  2.00D  GRAD.:     5.766 HEAT:  20.68825
+ CYCLE:   610 TIME:   0.398 TIME LEFT:  2.00D  GRAD.:     5.227 HEAT:  20.68775
+ CYCLE:   611 TIME:   0.389 TIME LEFT:  2.00D  GRAD.:     3.442 HEAT:  20.68738
+ CYCLE:   612 TIME:   0.404 TIME LEFT:  2.00D  GRAD.:     4.892 HEAT:  20.68740
+ CYCLE:   613 TIME:   0.406 TIME LEFT:  2.00D  GRAD.:     4.939 HEAT:  20.68634
+ CYCLE:   614 TIME:   0.396 TIME LEFT:  2.00D  GRAD.:     4.087 HEAT:  20.68561
+ CYCLE:   615 TIME:   0.426 TIME LEFT:  2.00D  GRAD.:    10.723 HEAT:  20.68535
+ CYCLE:   616 TIME:   0.404 TIME LEFT:  2.00D  GRAD.:     7.799 HEAT:  20.68398
+ CYCLE:   617 TIME:   0.396 TIME LEFT:  2.00D  GRAD.:     5.016 HEAT:  20.68299
+ CYCLE:   618 TIME:   0.369 TIME LEFT:  2.00D  GRAD.:     5.409 HEAT:  20.68222
+ CYCLE:   619 TIME:   0.441 TIME LEFT:  2.00D  GRAD.:     7.805 HEAT:  20.68139
+ CYCLE:   620 TIME:   0.426 TIME LEFT:  2.00D  GRAD.:     6.863 HEAT:  20.68051
+ CYCLE:   621 TIME:   0.428 TIME LEFT:  2.00D  GRAD.:     3.099 HEAT:  20.68011
+ CYCLE:   622 TIME:   0.418 TIME LEFT:  2.00D  GRAD.:     3.741 HEAT:  20.67971
+ CYCLE:   623 TIME:   0.387 TIME LEFT:  2.00D  GRAD.:     5.434 HEAT:  20.67926
+ CYCLE:   624 TIME:   0.396 TIME LEFT:  2.00D  GRAD.:     3.607 HEAT:  20.67867
+ CYCLE:   625 TIME:   0.385 TIME LEFT:  2.00D  GRAD.:     3.600 HEAT:  20.67782
+ CYCLE:   626 TIME:   0.377 TIME LEFT:  2.00D  GRAD.:    14.320 HEAT:  20.67801
+ CYCLE:   627 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:     4.029 HEAT:  20.67717
+ CYCLE:   628 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:     2.446 HEAT:  20.67699
+ CYCLE:   629 TIME:   0.377 TIME LEFT:  2.00D  GRAD.:     5.949 HEAT:  20.67711
+ CYCLE:   630 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     2.655 HEAT:  20.67658
+ CYCLE:   631 TIME:   0.324 TIME LEFT:  2.00D  GRAD.:     2.287 HEAT:  20.67619
+ CYCLE:   632 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:     9.437 HEAT:  20.67648
+ CYCLE:   633 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     1.669 HEAT:  20.67556
+ CYCLE:   634 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:     4.019 HEAT:  20.67555
+ CYCLE:   635 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:     5.645 HEAT:  20.67532
+ CYCLE:   636 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:     5.746 HEAT:  20.67517
+ CYCLE:   637 TIME:   0.383 TIME LEFT:  2.00D  GRAD.:     2.635 HEAT:  20.67495
+ CYCLE:   638 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:     1.779 HEAT:  20.67481
+ CYCLE:   639 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:     2.209 HEAT:  20.67449
+ CYCLE:   640 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:     3.590 HEAT:  20.67389
+ CYCLE:   641 TIME:   0.412 TIME LEFT:  2.00D  GRAD.:    15.595 HEAT:  20.67482
+ CYCLE:   642 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:     2.228 HEAT:  20.67342
+ CYCLE:   643 TIME:   0.416 TIME LEFT:  2.00D  GRAD.:     1.738 HEAT:  20.67334
+ CYCLE:   644 TIME:   0.377 TIME LEFT:  2.00D  GRAD.:     5.259 HEAT:  20.67314
+ CYCLE:   645 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:     3.095 HEAT:  20.67289
+ CYCLE:   646 TIME:   0.348 TIME LEFT:  2.00D  GRAD.:     2.242 HEAT:  20.67266
+ CYCLE:   647 TIME:   0.396 TIME LEFT:  2.00D  GRAD.:     3.959 HEAT:  20.67236
+ CYCLE:   648 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:     4.409 HEAT:  20.67192
+ CYCLE:   649 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     3.261 HEAT:  20.67161
+ CYCLE:   650 TIME:   0.385 TIME LEFT:  2.00D  GRAD.:     3.655 HEAT:  20.67129
+ CYCLE:   651 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:    47.925 HEAT:  20.68132
+ CYCLE:   652 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:     4.903 HEAT:  20.67075
+ CYCLE:   653 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     2.018 HEAT:  20.67048
+ CYCLE:   654 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:     2.771 HEAT:  20.67044
+ CYCLE:   655 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:     4.979 HEAT:  20.66993
+ CYCLE:   656 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:    11.493 HEAT:  20.67029
+ CYCLE:   657 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:     2.284 HEAT:  20.66958
+ CYCLE:   658 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:     1.628 HEAT:  20.66952
+ CYCLE:   659 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:     2.963 HEAT:  20.66936
+ CYCLE:   660 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     4.565 HEAT:  20.66895
+ CYCLE:   661 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     2.948 HEAT:  20.66879
+ CYCLE:   662 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:     1.935 HEAT:  20.66847
+ CYCLE:   663 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:     2.336 HEAT:  20.66817
+ CYCLE:   664 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:     2.393 HEAT:  20.66771
+ CYCLE:   665 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:    13.964 HEAT:  20.66808
+ CYCLE:   666 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:     4.602 HEAT:  20.66708
+ CYCLE:   667 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:     1.689 HEAT:  20.66696
+ CYCLE:   668 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:     1.796 HEAT:  20.66692
+ CYCLE:   669 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     2.992 HEAT:  20.66675
+ CYCLE:   670 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:     4.241 HEAT:  20.66648
+ CYCLE:   671 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:     6.346 HEAT:  20.66610
+ CYCLE:   672 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:     3.597 HEAT:  20.66566
+ CYCLE:   673 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     4.040 HEAT:  20.66542
+ CYCLE:   674 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:     6.776 HEAT:  20.66515
+ CYCLE:   675 TIME:   0.305 TIME LEFT:  2.00D  GRAD.:     1.960 HEAT:  20.66482
+ CYCLE:   676 TIME:   0.307 TIME LEFT:  2.00D  GRAD.:     2.210 HEAT:  20.66472
+ CYCLE:   677 TIME:   0.307 TIME LEFT:  2.00D  GRAD.:     4.312 HEAT:  20.66457
+ CYCLE:   678 TIME:   0.307 TIME LEFT:  2.00D  GRAD.:     4.440 HEAT:  20.66438
+ CYCLE:   679 TIME:   0.311 TIME LEFT:  2.00D  GRAD.:     7.198 HEAT:  20.66507
+ CYCLE:   680 TIME:   0.361 TIME LEFT:  2.00D  GRAD.:    14.587 HEAT:  20.66598
+ CYCLE:   681 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:    11.345 HEAT:  20.66497
+ CYCLE:   682 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:     2.256 HEAT:  20.66384
+ CYCLE:   683 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:     2.052 HEAT:  20.66372
+ CYCLE:   684 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:     1.427 HEAT:  20.66352
+ CYCLE:   685 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     5.237 HEAT:  20.66308
+ CYCLE:   686 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:     7.631 HEAT:  20.66304
+ CYCLE:   687 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:     2.069 HEAT:  20.66273
+ CYCLE:   688 TIME:   0.348 TIME LEFT:  2.00D  GRAD.:     1.568 HEAT:  20.66266
+ CYCLE:   689 TIME:   0.391 TIME LEFT:  2.00D  GRAD.:     2.214 HEAT:  20.66244
+ CYCLE:   690 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:     2.514 HEAT:  20.66226
+ CYCLE:   691 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:    26.805 HEAT:  20.66535
+ CYCLE:   692 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:     1.916 HEAT:  20.66208
+ CYCLE:   693 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:     1.810 HEAT:  20.66202
+ CYCLE:   694 TIME:   0.369 TIME LEFT:  2.00D  GRAD.:     2.692 HEAT:  20.66190
+ CYCLE:   695 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     1.697 HEAT:  20.66173
+ CYCLE:   696 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:     1.554 HEAT:  20.66164
+ CYCLE:   697 TIME:   0.383 TIME LEFT:  2.00D  GRAD.:     7.774 HEAT:  20.66187
+ CYCLE:   698 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     1.689 HEAT:  20.66146
+ CYCLE:   699 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:     1.019 HEAT:  20.66138
+ CYCLE:   700 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:     1.357 HEAT:  20.66127
+ CYCLE:   701 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:     2.511 HEAT:  20.66115
+ CYCLE:   702 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:     1.831 HEAT:  20.66096
+ CYCLE:   703 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:     1.489 HEAT:  20.66083
+ CYCLE:   704 TIME:   0.428 TIME LEFT:  2.00D  GRAD.:     1.881 HEAT:  20.66068
+ CYCLE:   705 TIME:   0.412 TIME LEFT:  2.00D  GRAD.:     1.763 HEAT:  20.66052
+ CYCLE:   706 TIME:   0.371 TIME LEFT:  2.00D  GRAD.:     6.383 HEAT:  20.66053
+ CYCLE:   707 TIME:   0.371 TIME LEFT:  2.00D  GRAD.:     1.334 HEAT:  20.66027
+ CYCLE:   708 TIME:   0.369 TIME LEFT:  2.00D  GRAD.:     3.678 HEAT:  20.66031
+ CYCLE:   709 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:     1.338 HEAT:  20.66014
+ CYCLE:   710 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:     1.264 HEAT:  20.66008
+ CYCLE:   711 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:     2.120 HEAT:  20.65986
+ CYCLE:   712 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:     1.976 HEAT:  20.65970
+ CYCLE:   713 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:     5.458 HEAT:  20.65956
+ CYCLE:   714 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:     8.060 HEAT:  20.65958
+ CYCLE:   715 TIME:   0.383 TIME LEFT:  2.00D  GRAD.:     1.153 HEAT:  20.65928
+ CYCLE:   716 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:     1.351 HEAT:  20.65925
+ CYCLE:   717 TIME:   0.385 TIME LEFT:  2.00D  GRAD.:     1.040 HEAT:  20.65917
+ CYCLE:   718 TIME:   0.391 TIME LEFT:  2.00D  GRAD.:     1.817 HEAT:  20.65901
+ CYCLE:   719 TIME:   0.391 TIME LEFT:  2.00D  GRAD.:     2.797 HEAT:  20.65886
+ CYCLE:   720 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:     1.507 HEAT:  20.65873
+ CYCLE:   721 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:     1.295 HEAT:  20.65863
+ CYCLE:   722 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     1.026 HEAT:  20.65850
+ CYCLE:   723 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:    11.001 HEAT:  20.65880
+ CYCLE:   724 TIME:   0.295 TIME LEFT:  2.00D  GRAD.:     1.154 HEAT:  20.65817
+ CYCLE:   725 TIME:   0.363 TIME LEFT:  2.00D  GRAD.:     1.690 HEAT:  20.65815
+ CYCLE:   726 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:     2.703 HEAT:  20.65794
+ CYCLE:   727 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:     6.293 HEAT:  20.65801
+ CYCLE:   728 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:     1.004 HEAT:  20.65781
+ CYCLE:   729 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:     0.919 HEAT:  20.65779
+ CYCLE:   730 TIME:   0.389 TIME LEFT:  2.00D  GRAD.:     1.186 HEAT:  20.65776
+ CYCLE:   731 TIME:   0.375 TIME LEFT:  2.00D  GRAD.:     0.765 HEAT:  20.65763
+ CYCLE:   732 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:     2.092 HEAT:  20.65749
+ CYCLE:   733 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:     2.285 HEAT:  20.65734
+ CYCLE:   734 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     1.501 HEAT:  20.65724
+ CYCLE:   735 TIME:   0.318 TIME LEFT:  2.00D  GRAD.:     1.774 HEAT:  20.65715
+ CYCLE:   736 TIME:   0.303 TIME LEFT:  2.00D  GRAD.:     1.166 HEAT:  20.65708
+ CYCLE:   737 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:     1.159 HEAT:  20.65697
+ CYCLE:   738 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:     2.535 HEAT:  20.65689
+ CYCLE:   739 TIME:   0.314 TIME LEFT:  2.00D  GRAD.:     1.238 HEAT:  20.65680
+ CYCLE:   740 TIME:   0.311 TIME LEFT:  2.00D  GRAD.:     1.739 HEAT:  20.65672
+ CYCLE:   741 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:     4.050 HEAT:  20.65669
+ CYCLE:   742 TIME:   0.293 TIME LEFT:  2.00D  GRAD.:     1.388 HEAT:  20.65660
+ CYCLE:   743 TIME:   0.311 TIME LEFT:  2.00D  GRAD.:     1.360 HEAT:  20.65652
+ CYCLE:   744 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:     1.357 HEAT:  20.65647
+ CYCLE:   745 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:     1.965 HEAT:  20.65638
+ CYCLE:   746 TIME:   0.383 TIME LEFT:  2.00D  GRAD.:     2.733 HEAT:  20.65622
+ CYCLE:   747 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     1.255 HEAT:  20.65601
+ CYCLE:   748 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:     1.147 HEAT:  20.65590
+ CYCLE:   749 TIME:   0.363 TIME LEFT:  2.00D  GRAD.:     2.240 HEAT:  20.65577
+ CYCLE:   750 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:     2.463 HEAT:  20.65559
+ CYCLE:   751 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:     1.572 HEAT:  20.65545
+ CYCLE:   752 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:     1.732 HEAT:  20.65533
+ CYCLE:   753 TIME:   0.352 TIME LEFT:  2.00D  GRAD.:     4.361 HEAT:  20.65524
+ CYCLE:   754 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     2.738 HEAT:  20.65511
+ CYCLE:   755 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:     1.651 HEAT:  20.65491
+ CYCLE:   756 TIME:   0.324 TIME LEFT:  2.00D  GRAD.:     1.507 HEAT:  20.65482
+ CYCLE:   757 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:     5.083 HEAT:  20.65472
+ CYCLE:   758 TIME:   0.301 TIME LEFT:  2.00D  GRAD.:     1.390 HEAT:  20.65459
+ CYCLE:   759 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:     1.328 HEAT:  20.65454
+ CYCLE:   760 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:     2.009 HEAT:  20.65442
+ CYCLE:   761 TIME:   0.318 TIME LEFT:  2.00D  GRAD.:     1.778 HEAT:  20.65433
+ CYCLE:   762 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:     1.408 HEAT:  20.65420
+ CYCLE:   763 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:     2.975 HEAT:  20.65411
+ CYCLE:   764 TIME:   0.318 TIME LEFT:  2.00D  GRAD.:     1.393 HEAT:  20.65393
+ CYCLE:   765 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:     1.608 HEAT:  20.65377
+ CYCLE:   766 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:     1.244 HEAT:  20.65360
+ CYCLE:   767 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:     2.453 HEAT:  20.65332
+ CYCLE:   768 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:     9.010 HEAT:  20.65354
+ CYCLE:   769 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:     1.368 HEAT:  20.65315
+ CYCLE:   770 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:     1.212 HEAT:  20.65310
+ CYCLE:   771 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:     6.119 HEAT:  20.65306
+ CYCLE:   772 TIME:   0.303 TIME LEFT:  2.00D  GRAD.:     1.639 HEAT:  20.65294
+ CYCLE:   773 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:     2.650 HEAT:  20.65295
+ CYCLE:   774 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:     1.201 HEAT:  20.65288
+ CYCLE:   775 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:     1.454 HEAT:  20.65280
+ CYCLE:   776 TIME:   0.379 TIME LEFT:  2.00D  GRAD.:     2.396 HEAT:  20.65269
+ CYCLE:   777 TIME:   0.318 TIME LEFT:  2.00D  GRAD.:     2.358 HEAT:  20.65257
+ CYCLE:   778 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:     3.142 HEAT:  20.65236
+ CYCLE:   779 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:     0.973 HEAT:  20.65219
+ CYCLE:   780 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:     0.852 HEAT:  20.65213
+ CYCLE:   781 TIME:   0.371 TIME LEFT:  2.00D  GRAD.:     1.689 HEAT:  20.65199
+ CYCLE:   782 TIME:   0.369 TIME LEFT:  2.00D  GRAD.:     3.715 HEAT:  20.65194
+ CYCLE:   783 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:     2.130 HEAT:  20.65177
+ CYCLE:   784 TIME:   0.352 TIME LEFT:  2.00D  GRAD.:     1.284 HEAT:  20.65161
+ CYCLE:   785 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:     2.409 HEAT:  20.65145
+ CYCLE:   786 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:    10.703 HEAT:  20.65171
+ CYCLE:   787 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:     1.672 HEAT:  20.65117
+ CYCLE:   788 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:     2.133 HEAT:  20.65124
+ CYCLE:   789 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:    12.167 HEAT:  20.65176
+ CYCLE:   790 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     1.296 HEAT:  20.65100
+ CYCLE:   791 TIME:   0.324 TIME LEFT:  2.00D  GRAD.:     1.170 HEAT:  20.65098
+ CYCLE:   792 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:     1.753 HEAT:  20.65092
+ CYCLE:   793 TIME:   0.309 TIME LEFT:  2.00D  GRAD.:     1.375 HEAT:  20.65084
+ CYCLE:   794 TIME:   0.324 TIME LEFT:  2.00D  GRAD.:     1.203 HEAT:  20.65073
+ CYCLE:   795 TIME:   0.314 TIME LEFT:  2.00D  GRAD.:     1.490 HEAT:  20.65065
+ CYCLE:   796 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     1.839 HEAT:  20.65052
+ CYCLE:   797 TIME:   0.348 TIME LEFT:  2.00D  GRAD.:     2.750 HEAT:  20.65044
+ CYCLE:   798 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     1.042 HEAT:  20.65036
+ CYCLE:   799 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:     0.887 HEAT:  20.65033
+ CYCLE:   800 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:     0.902 HEAT:  20.65026
+ CYCLE:   801 TIME:   0.377 TIME LEFT:  2.00D  GRAD.:     7.469 HEAT:  20.65036
+ CYCLE:   802 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:     1.029 HEAT:  20.65014
+ CYCLE:   803 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:     0.899 HEAT:  20.65012
+ CYCLE:   804 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:     1.179 HEAT:  20.65007
+ CYCLE:   805 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:     1.370 HEAT:  20.64999
+ CYCLE:   806 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:     4.375 HEAT:  20.65003
+ CYCLE:   807 TIME:   0.363 TIME LEFT:  2.00D  GRAD.:     0.919 HEAT:  20.64989
+ CYCLE:   808 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:     0.722 HEAT:  20.64987
+ CYCLE:   809 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     1.158 HEAT:  20.64977
+ CYCLE:   810 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:     1.787 HEAT:  20.64973
+ CYCLE:   811 TIME:   0.361 TIME LEFT:  2.00D  GRAD.:     0.864 HEAT:  20.64967
+ CYCLE:   812 TIME:   0.377 TIME LEFT:  2.00D  GRAD.:     0.696 HEAT:  20.64962
+ CYCLE:   813 TIME:   0.352 TIME LEFT:  2.00D  GRAD.:     1.094 HEAT:  20.64954
+ CYCLE:   814 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:     1.832 HEAT:  20.64949
+ CYCLE:   815 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     2.415 HEAT:  20.64944
+ CYCLE:   816 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     1.306 HEAT:  20.64940
+ CYCLE:   817 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:     0.990 HEAT:  20.64936
+ CYCLE:   818 TIME:   0.379 TIME LEFT:  2.00D  GRAD.:     1.251 HEAT:  20.64933
+ CYCLE:   819 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:     1.815 HEAT:  20.64928
+ CYCLE:   820 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:     1.238 HEAT:  20.64922
+ CYCLE:   821 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:     0.915 HEAT:  20.64917
+ CYCLE:   822 TIME:   0.379 TIME LEFT:  2.00D  GRAD.:     0.975 HEAT:  20.64912
+ CYCLE:   823 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:     3.373 HEAT:  20.64912
+ CYCLE:   824 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:     0.942 HEAT:  20.64903
+ CYCLE:   825 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:     0.719 HEAT:  20.64901
+ CYCLE:   826 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:     2.067 HEAT:  20.64898
+ CYCLE:   827 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:     1.104 HEAT:  20.64894
+ CYCLE:   828 TIME:   0.387 TIME LEFT:  2.00D  GRAD.:     1.871 HEAT:  20.64887
+ CYCLE:   829 TIME:   0.314 TIME LEFT:  2.00D  GRAD.:     1.306 HEAT:  20.64884
+ CYCLE:   830 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:     0.620 HEAT:  20.64877
+ CYCLE:   831 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     3.865 HEAT:  20.64878
+ CYCLE:   832 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:     0.855 HEAT:  20.64874
+ CYCLE:   833 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:     1.279 HEAT:  20.64873
+ CYCLE:   834 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:     0.679 HEAT:  20.64870
+ CYCLE:   835 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:     1.424 HEAT:  20.64864
+ CYCLE:   836 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:     2.346 HEAT:  20.64860
+ CYCLE:   837 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:     1.502 HEAT:  20.64853
+ CYCLE:   838 TIME:   0.363 TIME LEFT:  2.00D  GRAD.:     1.357 HEAT:  20.64840
+ CYCLE:   839 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     3.000 HEAT:  20.64837
+ CYCLE:   840 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:     2.226 HEAT:  20.64829
+ CYCLE:   841 TIME:   0.379 TIME LEFT:  2.00D  GRAD.:     1.354 HEAT:  20.64828
+ CYCLE:   842 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:     0.845 HEAT:  20.64825
+ CYCLE:   843 TIME:   0.385 TIME LEFT:  2.00D  GRAD.:     1.099 HEAT:  20.64820
+ CYCLE:   844 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:     1.202 HEAT:  20.64815
+ CYCLE:   845 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:     1.297 HEAT:  20.64808
+ CYCLE:   846 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:     2.139 HEAT:  20.64800
+ CYCLE:   847 TIME:   0.318 TIME LEFT:  2.00D  GRAD.:     4.118 HEAT:  20.64795
+ CYCLE:   848 TIME:   0.305 TIME LEFT:  2.00D  GRAD.:     0.929 HEAT:  20.64786
+ CYCLE:   849 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:     0.536 HEAT:  20.64785
+ CYCLE:   850 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:     0.899 HEAT:  20.64782
+ CYCLE:   851 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:     4.125 HEAT:  20.64788
+ CYCLE:   852 TIME:   0.363 TIME LEFT:  2.00D  GRAD.:     1.517 HEAT:  20.64784
+ CYCLE:   853 TIME:   0.414 TIME LEFT:  2.00D  GRAD.:     4.565 HEAT:  20.64791
+ CYCLE:   854 TIME:   0.379 TIME LEFT:  2.00D  GRAD.:     2.707 HEAT:  20.64784
+ CYCLE:   855 TIME:   0.377 TIME LEFT:  2.00D  GRAD.:     1.017 HEAT:  20.64768
+ CYCLE:   856 TIME:   0.375 TIME LEFT:  2.00D  GRAD.:     2.635 HEAT:  20.64767
+ CYCLE:   857 TIME:   0.309 TIME LEFT:  2.00D  GRAD.:     1.416 HEAT:  20.64762
+ CYCLE:   858 TIME:   0.352 TIME LEFT:  2.00D  GRAD.:     6.014 HEAT:  20.64804
+ CYCLE:   859 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:     0.640 HEAT:  20.64758
+ CYCLE:   860 TIME:   0.393 TIME LEFT:  2.00D  GRAD.:     0.965 HEAT:  20.64756
+ CYCLE:   861 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:     3.162 HEAT:  20.64755
+ CYCLE:   862 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:     1.506 HEAT:  20.64751
+ CYCLE:   863 TIME:   0.355 TIME LEFT:  2.00D  GRAD.:     1.512 HEAT:  20.64753
+ CYCLE:   864 TIME:   0.396 TIME LEFT:  2.00D  GRAD.:     0.719 HEAT:  20.64749
+ CYCLE:   865 TIME:   0.377 TIME LEFT:  2.00D  GRAD.:     0.538 HEAT:  20.64747
+ CYCLE:   866 TIME:   0.377 TIME LEFT:  2.00D  GRAD.:     0.652 HEAT:  20.64747
+ CYCLE:   867 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     0.760 HEAT:  20.64746
+ CYCLE:   868 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:     6.832 HEAT:  20.64765
+ CYCLE:   869 TIME:   0.361 TIME LEFT:  2.00D  GRAD.:     0.728 HEAT:  20.64745
+ CYCLE:   870 TIME:   0.379 TIME LEFT:  2.00D  GRAD.:     6.686 HEAT:  20.64765
+ CYCLE:   871 TIME:   0.324 TIME LEFT:  2.00D  GRAD.:     1.194 HEAT:  20.64749
+ CYCLE:   872 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:     7.411 HEAT:  20.64773
+ CYCLE:   873 TIME:   0.352 TIME LEFT:  2.00D  GRAD.:     3.370 HEAT:  20.64759
+ CYCLE:   874 TIME:   0.408 TIME LEFT:  2.00D  GRAD.:     7.605 HEAT:  20.64786
+ CYCLE:   875 TIME:   0.408 TIME LEFT:  2.00D  GRAD.:     6.606 HEAT:  20.64762
+ CYCLE:   876 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:     1.332 HEAT:  20.64740
+ CYCLE:   877 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:     6.584 HEAT:  20.64781
+ CYCLE:   878 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:     0.508 HEAT:  20.64737
+ CYCLE:   879 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:     0.435 HEAT:  20.64736
+ CYCLE:   880 TIME:   0.389 TIME LEFT:  2.00D  GRAD.:     0.955 HEAT:  20.64739
+ CYCLE:   881 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     1.154 HEAT:  20.64735
+ CYCLE:   882 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:     0.467 HEAT:  20.64734
+ CYCLE:   883 TIME:   0.324 TIME LEFT:  2.00D  GRAD.:     0.462 HEAT:  20.64732
+ CYCLE:   884 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:     0.607 HEAT:  20.64727
+ CYCLE:   885 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:     3.091 HEAT:  20.64727
+ CYCLE:   886 TIME:   0.369 TIME LEFT:  2.00D  GRAD.:     0.877 HEAT:  20.64721
+ CYCLE:   887 TIME:   0.410 TIME LEFT:  2.00D  GRAD.:     1.008 HEAT:  20.64722
+ CYCLE:   888 TIME:   0.307 TIME LEFT:  2.00D  GRAD.:     0.620 HEAT:  20.64718
+ CYCLE:   889 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:     1.655 HEAT:  20.64717
+ CYCLE:   890 TIME:   0.295 TIME LEFT:  2.00D  GRAD.:     0.974 HEAT:  20.64714
+ CYCLE:   891 TIME:   0.303 TIME LEFT:  2.00D  GRAD.:     0.775 HEAT:  20.64713
+ CYCLE:   892 TIME:   0.314 TIME LEFT:  2.00D  GRAD.:     0.986 HEAT:  20.64710
+ CYCLE:   893 TIME:   0.314 TIME LEFT:  2.00D  GRAD.:     0.979 HEAT:  20.64705
+ CYCLE:   894 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     0.644 HEAT:  20.64702
+ CYCLE:   895 TIME:   0.309 TIME LEFT:  2.00D  GRAD.:     1.437 HEAT:  20.64702
+ CYCLE:   896 TIME:   0.305 TIME LEFT:  2.00D  GRAD.:     0.676 HEAT:  20.64700
+ CYCLE:   897 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:     1.447 HEAT:  20.64702
+ CYCLE:   898 TIME:   0.299 TIME LEFT:  2.00D  GRAD.:     0.467 HEAT:  20.64697
+ CYCLE:   899 TIME:   0.318 TIME LEFT:  2.00D  GRAD.:     0.568 HEAT:  20.64696
+ CYCLE:   900 TIME:   0.324 TIME LEFT:  2.00D  GRAD.:     0.617 HEAT:  20.64695
+ CYCLE:   901 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:    17.753 HEAT:  20.64867
+ CYCLE:   902 TIME:   0.301 TIME LEFT:  2.00D  GRAD.:     0.602 HEAT:  20.64694
+ CYCLE:   903 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:     0.630 HEAT:  20.64693
+ CYCLE:   904 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:     1.955 HEAT:  20.64692
+ CYCLE:   905 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:     0.527 HEAT:  20.64690
+ CYCLE:   906 TIME:   0.379 TIME LEFT:  2.00D  GRAD.:     0.678 HEAT:  20.64690
+ CYCLE:   907 TIME:   0.352 TIME LEFT:  2.00D  GRAD.:     0.740 HEAT:  20.64689
+ CYCLE:   908 TIME:   0.309 TIME LEFT:  2.00D  GRAD.:     0.503 HEAT:  20.64689
+ CYCLE:   909 TIME:   0.309 TIME LEFT:  2.00D  GRAD.:     0.479 HEAT:  20.64688
+ CYCLE:   910 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:     0.950 HEAT:  20.64686
+ CYCLE:   911 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     1.369 HEAT:  20.64684
+ CYCLE:   912 TIME:   0.379 TIME LEFT:  2.00D  GRAD.:     1.653 HEAT:  20.64684
+ CYCLE:   913 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:     5.525 HEAT:  20.64697
+ CYCLE:   914 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:     0.769 HEAT:  20.64681
+ CYCLE:   915 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:     0.470 HEAT:  20.64680
+ CYCLE:   916 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:     1.105 HEAT:  20.64680
+ CYCLE:   917 TIME:   0.311 TIME LEFT:  2.00D  GRAD.:     0.790 HEAT:  20.64678
+ CYCLE:   918 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:     1.397 HEAT:  20.64679
+ CYCLE:   919 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:     0.945 HEAT:  20.64678
+ CYCLE:   920 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:    14.241 HEAT:  20.64757
+ CYCLE:   921 TIME:   0.301 TIME LEFT:  2.00D  GRAD.:     2.744 HEAT:  20.64681
+ CYCLE:   922 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:     2.610 HEAT:  20.64696
+ CYCLE:   923 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:     5.248 HEAT:  20.64691
+ CYCLE:   924 TIME:   0.348 TIME LEFT:  2.00D  GRAD.:     1.683 HEAT:  20.64673
+ CYCLE:   925 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:     1.063 HEAT:  20.64672
+ CYCLE:   926 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:     0.881 HEAT:  20.64672
+ CYCLE:   927 TIME:   0.361 TIME LEFT:  2.00D  GRAD.:     0.363 HEAT:  20.64671
+ CYCLE:   928 TIME:   0.348 TIME LEFT:  2.00D  GRAD.:     0.490 HEAT:  20.64670
+ CYCLE:   929 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:     1.029 HEAT:  20.64672
+ CYCLE:   930 TIME:   0.404 TIME LEFT:  2.00D  GRAD.:     0.745 HEAT:  20.64670
+ CYCLE:   931 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:     0.926 HEAT:  20.64670
+ CYCLE:   932 TIME:   0.348 TIME LEFT:  2.00D  GRAD.:     0.547 HEAT:  20.64668
+ CYCLE:   933 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     0.813 HEAT:  20.64667
+ CYCLE:   934 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:     1.468 HEAT:  20.64667
+ CYCLE:   935 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:     0.627 HEAT:  20.64664
+ CYCLE:   936 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     0.630 HEAT:  20.64666
+ CYCLE:   937 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:     1.290 HEAT:  20.64663
+ CYCLE:   938 TIME:   0.385 TIME LEFT:  2.00D  GRAD.:     1.182 HEAT:  20.64666
+ CYCLE:   939 TIME:   0.301 TIME LEFT:  2.00D  GRAD.:     0.409 HEAT:  20.64661
+ CYCLE:   940 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     0.668 HEAT:  20.64661
+ CYCLE:   941 TIME:   0.305 TIME LEFT:  2.00D  GRAD.:     0.621 HEAT:  20.64660
+ CYCLE:   942 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:     2.077 HEAT:  20.64661
+ CYCLE:   943 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:     0.799 HEAT:  20.64659
+ CYCLE:   944 TIME:   0.314 TIME LEFT:  2.00D  GRAD.:     0.209 HEAT:  20.64659
+ CYCLE:   945 TIME:   0.279 TIME LEFT:  2.00D  GRAD.:     0.326 HEAT:  20.64659
+ CYCLE:   946 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:     0.650 HEAT:  20.64659
+ CYCLE:   947 TIME:   0.359 TIME LEFT:  2.00D  GRAD.:     0.357 HEAT:  20.64658
+ CYCLE:   948 TIME:   0.396 TIME LEFT:  2.00D  GRAD.:     3.421 HEAT:  20.64663
+ CYCLE:   949 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:     0.701 HEAT:  20.64657
+ CYCLE:   950 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     0.324 HEAT:  20.64657
+ CYCLE:   951 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:     0.210 HEAT:  20.64657
+ CYCLE:   952 TIME:   0.398 TIME LEFT:  2.00D  GRAD.:     2.241 HEAT:  20.64657
+ CYCLE:   953 TIME:   0.371 TIME LEFT:  2.00D  GRAD.:     0.717 HEAT:  20.64655
+ CYCLE:   954 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:     0.486 HEAT:  20.64654
+ CYCLE:   955 TIME:   0.400 TIME LEFT:  2.00D  GRAD.:     0.541 HEAT:  20.64654
+ CYCLE:   956 TIME:   0.426 TIME LEFT:  2.00D  GRAD.:     0.871 HEAT:  20.64653
+ CYCLE:   957 TIME:   0.402 TIME LEFT:  2.00D  GRAD.:     0.646 HEAT:  20.64652
+ CYCLE:   958 TIME:   0.414 TIME LEFT:  2.00D  GRAD.:     0.655 HEAT:  20.64652
+ CYCLE:   959 TIME:   0.389 TIME LEFT:  2.00D  GRAD.:     2.088 HEAT:  20.64654
+ CYCLE:   960 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     0.347 HEAT:  20.64651
+ CYCLE:   961 TIME:   0.324 TIME LEFT:  2.00D  GRAD.:     0.279 HEAT:  20.64651
+ CYCLE:   962 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     1.053 HEAT:  20.64650
+ CYCLE:   963 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:     0.824 HEAT:  20.64649
+ CYCLE:   964 TIME:   0.324 TIME LEFT:  2.00D  GRAD.:     0.412 HEAT:  20.64647
+ CYCLE:   965 TIME:   0.314 TIME LEFT:  2.00D  GRAD.:     0.459 HEAT:  20.64647
+ CYCLE:   966 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     2.217 HEAT:  20.64648
+ CYCLE:   967 TIME:   0.363 TIME LEFT:  2.00D  GRAD.:     0.835 HEAT:  20.64646
+ CYCLE:   968 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     0.332 HEAT:  20.64645
+ CYCLE:   969 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:     0.481 HEAT:  20.64645
+ CYCLE:   970 TIME:   0.322 TIME LEFT:  2.00D  GRAD.:     1.493 HEAT:  20.64650
+ CYCLE:   971 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:     1.157 HEAT:  20.64645
+ CYCLE:   972 TIME:   0.301 TIME LEFT:  2.00D  GRAD.:     4.355 HEAT:  20.64663
+ CYCLE:   973 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:     1.092 HEAT:  20.64644
+ CYCLE:   974 TIME:   0.318 TIME LEFT:  2.00D  GRAD.:     0.212 HEAT:  20.64643
+ CYCLE:   975 TIME:   0.305 TIME LEFT:  2.00D  GRAD.:     0.260 HEAT:  20.64643
+ CYCLE:   976 TIME:   0.318 TIME LEFT:  2.00D  GRAD.:     1.120 HEAT:  20.64644
+ CYCLE:   977 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:     0.811 HEAT:  20.64642
+ CYCLE:   978 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:     0.366 HEAT:  20.64641
+ CYCLE:   979 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:     0.347 HEAT:  20.64642
+ CYCLE:   980 TIME:   0.318 TIME LEFT:  2.00D  GRAD.:     0.588 HEAT:  20.64641
+ CYCLE:   981 TIME:   0.369 TIME LEFT:  2.00D  GRAD.:    11.519 HEAT:  20.64719
+ CYCLE:   982 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:     1.580 HEAT:  20.64643
+ CYCLE:   983 TIME:   0.367 TIME LEFT:  2.00D  GRAD.:     1.094 HEAT:  20.64640
+ CYCLE:   984 TIME:   0.309 TIME LEFT:  2.00D  GRAD.:     1.468 HEAT:  20.64639
+ CYCLE:   985 TIME:   0.303 TIME LEFT:  2.00D  GRAD.:     1.562 HEAT:  20.64639
+ CYCLE:   986 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:     2.459 HEAT:  20.64639
+ CYCLE:   987 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:     1.023 HEAT:  20.64637
+ CYCLE:   988 TIME:   0.387 TIME LEFT:  2.00D  GRAD.:     0.561 HEAT:  20.64635
+ CYCLE:   989 TIME:   0.396 TIME LEFT:  2.00D  GRAD.:     1.130 HEAT:  20.64644
+ CYCLE:   990 TIME:   0.379 TIME LEFT:  2.00D  GRAD.:     1.303 HEAT:  20.64635
+ CYCLE:   991 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     2.501 HEAT:  20.64638
+ CYCLE:   992 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:     0.473 HEAT:  20.64634
+ CYCLE:   993 TIME:   0.363 TIME LEFT:  2.00D  GRAD.:     2.305 HEAT:  20.64640
+ CYCLE:   994 TIME:   0.363 TIME LEFT:  2.00D  GRAD.:     0.398 HEAT:  20.64634
+ CYCLE:   995 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:     0.599 HEAT:  20.64634
+ CYCLE:   996 TIME:   0.311 TIME LEFT:  2.00D  GRAD.:     0.453 HEAT:  20.64633
+ CYCLE:   997 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:     3.822 HEAT:  20.64640
+ CYCLE:   998 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:     0.795 HEAT:  20.64632
+ CYCLE:   999 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:     0.226 HEAT:  20.64632
+ CYCLE:  1000 TIME:   0.305 TIME LEFT:  2.00D  GRAD.:     0.255 HEAT:  20.64632
+ CYCLE:  1001 TIME:   0.377 TIME LEFT:  2.00D  GRAD.:     0.519 HEAT:  20.64631
+ CYCLE:  1002 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:     0.747 HEAT:  20.64631
+ CYCLE:  1003 TIME:   0.279 TIME LEFT:  2.00D  GRAD.:     0.347 HEAT:  20.64631
+ CYCLE:  1004 TIME:   0.373 TIME LEFT:  2.00D  GRAD.:     0.559 HEAT:  20.64631
+ CYCLE:  1005 TIME:   0.346 TIME LEFT:  2.00D  GRAD.:     0.343 HEAT:  20.64631
+ CYCLE:  1006 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:     0.456 HEAT:  20.64630
+ CYCLE:  1007 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:     0.585 HEAT:  20.64630
+ CYCLE:  1008 TIME:   0.287 TIME LEFT:  2.00D  GRAD.:     0.307 HEAT:  20.64630
+ CYCLE:  1009 TIME:   0.285 TIME LEFT:  2.00D  GRAD.:     0.396 HEAT:  20.64629
+ CYCLE:  1010 TIME:   0.293 TIME LEFT:  2.00D  GRAD.:     0.493 HEAT:  20.64629
+ CYCLE:  1011 TIME:   0.305 TIME LEFT:  2.00D  GRAD.:     0.312 HEAT:  20.64629
+ CYCLE:  1012 TIME:   0.309 TIME LEFT:  2.00D  GRAD.:     0.196 HEAT:  20.64628
+ CYCLE:  1013 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:     0.205 HEAT:  20.64627
+ CYCLE:  1014 TIME:   0.299 TIME LEFT:  2.00D  GRAD.:     0.965 HEAT:  20.64627
+ CYCLE:  1015 TIME:   0.295 TIME LEFT:  2.00D  GRAD.:     2.069 HEAT:  20.64628
+ CYCLE:  1016 TIME:   0.283 TIME LEFT:  2.00D  GRAD.:     1.260 HEAT:  20.64627
+ CYCLE:  1017 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:     1.928 HEAT:  20.64628
+ CYCLE:  1018 TIME:   0.305 TIME LEFT:  2.00D  GRAD.:     0.311 HEAT:  20.64626
+ CYCLE:  1019 TIME:   0.283 TIME LEFT:  2.00D  GRAD.:     0.261 HEAT:  20.64625
+ CYCLE:  1020 TIME:   0.324 TIME LEFT:  2.00D  GRAD.:     0.463 HEAT:  20.64624
+ CYCLE:  1021 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:     1.784 HEAT:  20.64625
+ CYCLE:  1022 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:     0.350 HEAT:  20.64624
+ CYCLE:  1023 TIME:   0.293 TIME LEFT:  2.00D  GRAD.:     0.329 HEAT:  20.64623
+ CYCLE:  1024 TIME:   0.301 TIME LEFT:  2.00D  GRAD.:     0.381 HEAT:  20.64623
+ CYCLE:  1025 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     0.743 HEAT:  20.64622
+ CYCLE:  1026 TIME:   0.299 TIME LEFT:  2.00D  GRAD.:     0.309 HEAT:  20.64622
+ CYCLE:  1027 TIME:   0.305 TIME LEFT:  2.00D  GRAD.:     0.659 HEAT:  20.64621
+ CYCLE:  1028 TIME:   0.283 TIME LEFT:  2.00D  GRAD.:     0.612 HEAT:  20.64621
+ CYCLE:  1029 TIME:   0.303 TIME LEFT:  2.00D  GRAD.:     0.459 HEAT:  20.64620
+ CYCLE:  1030 TIME:   0.303 TIME LEFT:  2.00D  GRAD.:     0.365 HEAT:  20.64619
+ CYCLE:  1031 TIME:   0.299 TIME LEFT:  2.00D  GRAD.:     0.433 HEAT:  20.64619
+ CYCLE:  1032 TIME:   0.303 TIME LEFT:  2.00D  GRAD.:     0.627 HEAT:  20.64618
+ CYCLE:  1033 TIME:   0.309 TIME LEFT:  2.00D  GRAD.:     0.396 HEAT:  20.64618
+ CYCLE:  1034 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:     0.229 HEAT:  20.64617
+ CYCLE:  1035 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:     0.258 HEAT:  20.64616
+ CYCLE:  1036 TIME:   0.307 TIME LEFT:  2.00D  GRAD.:     0.299 HEAT:  20.64615
+ CYCLE:  1037 TIME:   0.309 TIME LEFT:  2.00D  GRAD.:     0.405 HEAT:  20.64614
+ CYCLE:  1038 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:     2.306 HEAT:  20.64619
+ CYCLE:  1039 TIME:   0.365 TIME LEFT:  2.00D  GRAD.:     0.332 HEAT:  20.64613
+ CYCLE:  1040 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     0.292 HEAT:  20.64613
+ CYCLE:  1041 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:     0.437 HEAT:  20.64612
+ CYCLE:  1042 TIME:   0.316 TIME LEFT:  2.00D  GRAD.:     0.943 HEAT:  20.64611
+ CYCLE:  1043 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:     0.552 HEAT:  20.64611
+ CYCLE:  1044 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:     0.595 HEAT:  20.64610
+ CYCLE:  1045 TIME:   0.354 TIME LEFT:  2.00D  GRAD.:     0.572 HEAT:  20.64610
+ CYCLE:  1046 TIME:   0.320 TIME LEFT:  2.00D  GRAD.:     1.943 HEAT:  20.64610
+ CYCLE:  1047 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:     0.386 HEAT:  20.64609
+ CYCLE:  1048 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:     0.318 HEAT:  20.64609
+ CYCLE:  1049 TIME:   0.311 TIME LEFT:  2.00D  GRAD.:     0.406 HEAT:  20.64608
+ CYCLE:  1050 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:     0.392 HEAT:  20.64608
+ CYCLE:  1051 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:     0.283 HEAT:  20.64607
+ CYCLE:  1052 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:     0.408 HEAT:  20.64607
+ CYCLE:  1053 TIME:   0.381 TIME LEFT:  2.00D  GRAD.:     0.404 HEAT:  20.64606
+ CYCLE:  1054 TIME:   0.348 TIME LEFT:  2.00D  GRAD.:     0.582 HEAT:  20.64605
+ CYCLE:  1055 TIME:   0.371 TIME LEFT:  2.00D  GRAD.:     0.201 HEAT:  20.64604
+ CYCLE:  1056 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:     0.236 HEAT:  20.64604
+ CYCLE:  1057 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:     0.756 HEAT:  20.64605
+ CYCLE:  1058 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:     0.304 HEAT:  20.64603
+ CYCLE:  1059 TIME:   0.293 TIME LEFT:  2.00D  GRAD.:     0.446 HEAT:  20.64603
+ CYCLE:  1060 TIME:   0.303 TIME LEFT:  2.00D  GRAD.:     0.351 HEAT:  20.64603
+ CYCLE:  1061 TIME:   0.311 TIME LEFT:  2.00D  GRAD.:     0.356 HEAT:  20.64602
+ CYCLE:  1062 TIME:   0.336 TIME LEFT:  2.00D  GRAD.:     0.599 HEAT:  20.64602
+ CYCLE:  1063 TIME:   0.369 TIME LEFT:  2.00D  GRAD.:     0.278 HEAT:  20.64602
+ CYCLE:  1064 TIME:   0.344 TIME LEFT:  2.00D  GRAD.:     0.204 HEAT:  20.64602
+ CYCLE:  1065 TIME:   0.307 TIME LEFT:  2.00D  GRAD.:     0.263 HEAT:  20.64601
+ CYCLE:  1066 TIME:   0.275 TIME LEFT:  2.00D  GRAD.:     0.258 HEAT:  20.64601
+ CYCLE:  1067 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:     0.224 HEAT:  20.64601
+ CYCLE:  1068 TIME:   0.357 TIME LEFT:  2.00D  GRAD.:     0.417 HEAT:  20.64601
+ CYCLE:  1069 TIME:   0.340 TIME LEFT:  2.00D  GRAD.:     0.204 HEAT:  20.64600
+ CYCLE:  1070 TIME:   0.342 TIME LEFT:  2.00D  GRAD.:     0.310 HEAT:  20.64600
+ CYCLE:  1071 TIME:   0.305 TIME LEFT:  2.00D  GRAD.:     0.230 HEAT:  20.64600
+ CYCLE:  1072 TIME:   0.291 TIME LEFT:  2.00D  GRAD.:     0.200 HEAT:  20.64600
+ CYCLE:  1073 TIME:   0.334 TIME LEFT:  2.00D  GRAD.:     0.664 HEAT:  20.64600
+ CYCLE:  1074 TIME:   0.328 TIME LEFT:  2.00D  GRAD.:     0.174 HEAT:  20.64599
+ CYCLE:  1075 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:     0.237 HEAT:  20.64599
+ CYCLE:  1076 TIME:   0.312 TIME LEFT:  2.00D  GRAD.:     0.175 HEAT:  20.64599
+ CYCLE:  1077 TIME:   0.297 TIME LEFT:  2.00D  GRAD.:     0.214 HEAT:  20.64599
+ CYCLE:  1078 TIME:   0.277 TIME LEFT:  2.00D  GRAD.:     0.183 HEAT:  20.64599
+ CYCLE:  1079 TIME:   0.295 TIME LEFT:  2.00D  GRAD.:     0.201 HEAT:  20.64599
+ CYCLE:  1080 TIME:   0.283 TIME LEFT:  2.00D  GRAD.:     0.350 HEAT:  20.64599
+ CYCLE:  1081 TIME:   0.301 TIME LEFT:  2.00D  GRAD.:     0.122 HEAT:  20.64599
+ CYCLE:  1082 TIME:   0.281 TIME LEFT:  2.00D  GRAD.:     0.149 HEAT:  20.64599
+ CYCLE:  1083 TIME:   0.273 TIME LEFT:  2.00D  GRAD.:     0.197 HEAT:  20.64599
+ CYCLE:  1084 TIME:   0.301 TIME LEFT:  2.00D  GRAD.:     0.114 HEAT:  20.64599
+ CYCLE:  1085 TIME:   0.285 TIME LEFT:  2.00D  GRAD.:     0.129 HEAT:  20.64598
+ CYCLE:  1086 TIME:   0.326 TIME LEFT:  2.00D  GRAD.:     0.218 HEAT:  20.64598
+ CYCLE:  1087 TIME:   0.350 TIME LEFT:  2.00D  GRAD.:     0.140 HEAT:  20.64598
+ CYCLE:  1088 TIME:   0.338 TIME LEFT:  2.00D  GRAD.:     0.135 HEAT:  20.64598
+ CYCLE:  1089 TIME:   0.287 TIME LEFT:  2.00D  GRAD.:     0.518 HEAT:  20.64598
+ CYCLE:  1090 TIME:   0.299 TIME LEFT:  2.00D  GRAD.:     0.135 HEAT:  20.64598
+ CYCLE:  1091 TIME:   0.270 TIME LEFT:  2.00D  GRAD.:     0.169 HEAT:  20.64598
+ CYCLE:  1092 TIME:   0.277 TIME LEFT:  2.00D  GRAD.:     0.139 HEAT:  20.64598
+ CYCLE:  1093 TIME:   0.283 TIME LEFT:  2.00D  GRAD.:     0.100 HEAT:  20.64598
+ CYCLE:  1094 TIME:   0.330 TIME LEFT:  2.00D  GRAD.:     0.151 HEAT:  20.64598
+ CYCLE:  1095 TIME:   0.309 TIME LEFT:  2.00D  GRAD.:     0.356 HEAT:  20.64598
+ CYCLE:  1096 TIME:   0.324 TIME LEFT:  2.00D  GRAD.:     0.202 HEAT:  20.64597
+ CYCLE:  1097 TIME:   0.303 TIME LEFT:  2.00D  GRAD.:     0.136 HEAT:  20.64597
+ CYCLE:  1098 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     0.115 HEAT:  20.64597
+ CYCLE:  1099 TIME:   0.332 TIME LEFT:  2.00D  GRAD.:     0.120 HEAT:  20.64597
+ CYCLE:  1100 TIME:   0.305 TIME LEFT:  2.00D  GRAD.:     0.429 HEAT:  20.64597
+ CYCLE:  1101 TIME:   0.299 TIME LEFT:  2.00D  GRAD.:     0.189 HEAT:  20.64597
+ CYCLE:  1102 TIME:   0.291 TIME LEFT:  2.00D  GRAD.:     0.125 HEAT:  20.64597
+ CYCLE:  1103 TIME:   0.270 TIME LEFT:  2.00D  GRAD.:     0.100 HEAT:  20.64597
+
+ -------------------------------------------------------------------------------
+ RM1 PRECISE POLAR GNORM=0.1
+
+
+
+
+     HERBERTS TEST WAS SATISFIED IN BFGS                      
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              RM1 CALCULATION
+                                                       MOPAC2016 (Version: 21.013L)
+                                                       Sun Oct 17 08:16:58 2021
+                                                       No. of days remaining =  88
+
+
+
+
+          FINAL HEAT OF FORMATION =         20.64597 KCAL/MOL =      86.38274 KJ/MOL
+
+
+          TOTAL ENERGY            =      -9517.82658 EV
+          ELECTRONIC ENERGY       =    -111269.35464 EV  POINT GROUP:     C1  
+          CORE-CORE REPULSION     =     101751.52806 EV
+          COSMO AREA              =        924.59 SQUARE ANGSTROMS
+          COSMO VOLUME            =       1092.76 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.09997 = 0.00898 PER ATOM
+          IONIZATION POTENTIAL    =          7.745254 EV
+          HOMO LUMO ENERGIES (EV) =         -7.745 -1.424
+          NO. OF FILLED LEVELS    =        162
+          MOLECULAR WEIGHT        =        872.2368
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H   124    H    66    28.98326
+            H    67    H   108    18.23208
+            H   104    H    89     8.04854
+
+
+          SCF CALCULATIONS        =       1104
+ 
+          WALL-CLOCK TIME         =  6 MINUTES AND 35.186 SECONDS
+          COMPUTATION TIME        =  1 HOUR 12 MINUTES AND 12.407 SECONDS
+
+
+
+
+  ATOM    CHEMICAL      BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER    SYMBOL       (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                     NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1       C          0.00000000       0.0000000       0.0000000        0     0     0
+     2       C          1.51999994  *    0.0000000       0.0000000        1     0     0
+     3       C          1.52665859  *  110.7729206  *    0.0000000        2     1     0
+     4       C          1.52687840  *  110.8075196  *  179.9859018  *     3     2     1
+     5       C          1.52706412  *  110.7487737  * -179.9611673  *     4     3     2
+     6       C          1.52709882  *  110.7401384  *  179.9878026  *     5     4     3
+     7       C          1.52710287  *  110.7361242  * -179.9641571  *     6     5     4
+     8       C          1.52711354  *  110.7246731  *  179.9902829  *     7     6     5
+     9       C          1.52713351  *  110.7009726  * -179.9503723  *     8     7     6
+    10       C          1.52715733  *  110.6864123  * -179.9556499  *     9     8     7
+    11       C          1.52589243  *  110.5445038  * -179.8765108  *    10     9     8
+    12       C          1.53577850  *  110.0068119  * -179.9949961  *    11    10     9
+    13       N          1.46045422  *  111.8417066  * -179.9194612  *    12    11    10
+    14       C          1.40919199  *  124.4531203  *   76.8117119  *    13    12    11
+    15       C          1.39350286  *  129.5471008  *   17.6067230  *    14    13    12
+    16       C          1.38439717  *  117.4494039  *  176.7345772  *    15    14    13
+    17       C          1.40430848  *  121.5536936  *   -0.0317173  *    16    15    14
+    18       C          1.39178615  *  121.0913789  *    0.3254865  *    17    16    15
+    19       C          1.38373008  *  118.1253428  *   -0.0895483  *    18    17    16
+    20       C          1.44111046  *  132.4542309  *  179.2374074  *    19    18    17
+    21       C          1.42149658  *  107.0392000  * -179.7093095  *    20    19    18
+    22       C          1.39264494  *  121.3381177  *  179.1372010  *    21    20    19
+    23       C          1.38458928  *  117.7534750  *    0.8375096  *    22    21    20
+    24       C          1.40688909  *  120.7734459  *   -0.7305996  *    23    22    21
+    25       C          1.39517253  *  121.9562988  *    0.1119604  *    24    23    22
+    26       N          1.41500004  *  118.8986936  * -179.9425182  *    24    23    22
+    27       C          1.40879147  *  125.8589937  *   50.9141439  *    26    24    25
+    28       C          1.38847695  *  130.0598992  *    1.6295147  *    27    26    24
+    29       C          1.38850523  *  117.4741912  *  179.4895873  *    28    27    26
+    30       C          1.40010041  *  122.3141235  *   -0.2530480  *    29    28    27
+    31       C          1.39412831  *  119.6844731  *   -0.5427351  *    30    29    28
+    32       C          1.38304583  *  119.2406925  *    0.5471746  *    31    30    29
+    33       C          1.44287556  *  132.6890295  * -179.4314453  *    32    31    30
+    34       C          1.40866902  *  126.0600258  * -128.7502053  *    26    24    25
+    35       C          1.38847509  *  130.0978701  *    1.2484502  *    34    26    24
+    36       C          1.38854713  *  117.4937702  *  179.5920239  *    35    34    26
+    37       C          1.40002690  *  122.3126722  *   -0.2917886  *    36    35    34
+    38       C          1.38299995  *  132.6688567  *   -0.5136905  *    33    32    31
+    39       C          1.50680570  *  122.4472570  *  179.7363310  *    37    36    35
+    40       C          1.53151153  *  108.8227450  *  119.1817681  *    39    37    36
+    41       C          1.52981941  *  113.4461521  *   -0.8989722  *    39    37    36
+    42       C          1.53169365  *  108.8780646  * -120.9199783  *    39    37    36
+    43       C          1.50680665  *  122.4417005  *  179.7667095  *    30    29    28
+    44       C          1.52982274  *  113.4466722  *   -0.9843771  *    43    30    29
+    45       C          1.53150119  *  108.8181976  *  119.0955751  *    43    30    29
+    46       C          1.53171082  *  108.8851562  * -121.0072465  *    43    30    29
+    47       C          1.44378066  *  118.5663826  *  179.6757411  *    17    16    15
+    48       C          1.36542519  *  125.8181224  *  -43.1578095  *    47    17    16
+    49       C          1.43116350  *  112.0953254  *  179.3414245  *    48    47    17
+    50       C          1.36789770  *  111.9989069  *   -0.0273896  *    49    48    47
+    51       S          1.71586907  *  112.0647053  *   -0.2045305  *    50    49    48
+    52       C          1.42616432  *  126.6455705  *  179.8505768  *    50    49    48
+    53       C          1.37485592  *  126.2861889  * -146.4768627  *    52    50    49
+    54       C          1.42010094  *  111.6328438  * -179.7773727  *    53    52    50
+    55       C          1.38051794  *  112.2523316  *   -0.1901202  *    54    53    52
+    56       S          1.70075951  *  111.6138568  *    0.3641926  *    55    54    53
+    57       C          1.42967997  *  122.4096166  * -179.9438073  *    55    54    53
+    58       C          1.35057260  *  126.0231607  *  174.6548284  *    57    55    54
+    59       C          1.46786433  *  119.2157849  *  179.8852411  *    58    57    55
+    60       O          1.22338123  *  126.6726352  *   -0.1839918  *    59    58    57
+    61       O          1.34858360  *  113.9588820  *  179.8212031  *    59    58    57
+    62       C          1.41548044  *  123.7956059  *   -0.3494650  *    58    57    55
+    63       N          1.15699097  *  178.5668234  *  177.1735087  *    62    58    57
+    64       H          1.10355644  *  115.0966926  *   -5.2051081  *    57    55    54
+    65       H          1.09957043  *  112.2899050  *   60.1483344  *     1     2     3
+    66       H          1.09965168  *  111.8511011  *  179.9962503  *     1     2     3
+    67       H          1.09957074  *  112.2901983  *  -60.1562786  *     1     2     3
+    68       H          1.11062493  *  110.1286139  * -177.2788111  *     2     1    65
+    69       H          1.11062313  *  110.1311764  *  -62.4250069  *     2     1    65
+    70       H          1.11054518  *  110.2161225  * -179.8439842  *     3     2    68
+    71       H          1.11055585  *  110.2088282  *  179.8295999  *     3     2    69
+    72       H          1.11058766  *  110.3102852  * -179.9267218  *     4     3    70
+    73       H          1.11057279  *  110.3130477  *  -64.8098252  *     4     3    70
+    74       H          1.11057414  *  110.3237511  * -179.9934322  *     5     4    72
+    75       H          1.11058236  *  110.3154815  *  -64.8688981  *     5     4    72
+    76       H          1.11058787  *  110.3179306  * -179.9734147  *     6     5    74
+    77       H          1.11057650  *  110.3207511  *  -64.8410002  *     6     5    74
+    78       H          1.11058397  *  110.3290070  * -179.9949732  *     7     6    76
+    79       H          1.11059410  *  110.3239924  *  179.9959311  *     7     6    77
+    80       H          1.11059959  *  110.3167126  * -179.9669916  *     8     7    78
+    81       H          1.11058466  *  110.3197421  *  -64.8211110  *     8     7    78
+    82       H          1.11060333  *  110.3532273  * -179.9458117  *     9     8    80
+    83       H          1.11061278  *  110.3441315  * -179.9475180  *     9     8    81
+    84       H          1.11076212  *  110.3091700  * -179.9191556  *    10     9    82
+    85       H          1.11075034  *  110.3042786  *  -64.7128002  *    10     9    82
+    86       H          1.11059828  *  110.7336451  *  179.8654518  *    11    10    84
+    87       H          1.11074244  *  110.7326318  * -179.7889784  *    11    10    85
+    88       H          1.11493310  *  111.0788955  *  179.2224874  *    12    11    86
+    89       H          1.11465889  *  111.1218482  * -179.3290536  *    12    11    87
+    90       H          1.09159949  *  121.7519527  *   -3.2509358  *    15    14    13
+    91       H          1.09522868  *  119.1521619  * -179.6163890  *    16    15    14
+    92       H          1.09328196  *  121.6902584  *  179.3383526  *    18    17    16
+    93       H          1.09195503  *  121.7653377  * -179.5655599  *    22    21    20
+    94       H          1.09575664  *  119.3344012  *  178.6625558  *    23    22    21
+    95       H          1.09370563  *  122.0824767  *    1.0235541  *    25    24    26
+    96       H          1.09211688  *  121.4945363  *    0.3242564  *    28    27    26
+    97       H          1.09366716  *  116.4582655  *  179.9616214  *    29    28    27
+    98       H          1.09326285  *  122.3369148  * -179.3459957  *    31    30    29
+    99       H          1.09196806  *  121.4974311  *    0.4071278  *    35    34    26
+   100       H          1.09365904  *  116.4648447  *  179.9100757  *    36    35    34
+   101       H          1.09327180  *  118.4210476  *    0.5298599  *    38    33    32
+   102       H          1.09932914  *  111.7137894  *  -57.5278923  *    40    39    37
+   103       H          1.09862058  *  113.2035091  *   62.8359548  *    40    39    37
+   104       H          1.09988653  *  112.0221696  * -177.4243357  *    40    39    37
+   105       H          1.09938417  *  112.5786067  *   61.3437109  *    41    39    37
+   106       H          1.10082791  *  111.7858488  * -179.6959161  *    41    39    37
+   107       H          1.09936836  *  112.5366728  *  -60.6889980  *    41    39    37
+   108       H          1.09990878  *  112.0295442  *  177.2918850  *    42    39    37
+   109       H          1.09861834  *  113.2363094  *  -63.0052907  *    42    39    37
+   110       H          1.09930150  *  111.7075514  *   57.3929396  *    42    39    37
+   111       H          1.09935933  *  112.5340698  *  -60.6784077  *    44    43    30
+   112       H          1.09939051  *  112.5801065  *   61.3488977  *    44    43    30
+   113       H          1.10082694  *  111.7876299  * -179.6926405  *    44    43    30
+   114       H          1.09862041  *  113.2022275  *   62.7673140  *    45    43    30
+   115       H          1.09988517  *  112.0214715  * -177.4871490  *    45    43    30
+   116       H          1.09933372  *  111.7126188  *  -57.5910938  *    45    43    30
+   117       H          1.09929173  *  111.7079911  *   57.3153967  *    46    43    30
+   118       H          1.09991057  *  112.0326889  *  177.2178020  *    46    43    30
+   119       H          1.09862120  *  113.2358971  *  -63.0843443  *    46    43    30
+   120       H          1.08732883  *  125.1636166  *   -1.4524056  *    48    47    17
+   121       H          1.08785633  *  122.6140655  *  179.3777951  *    49    48    47
+   122       H          1.08727696  *  125.1338241  *    0.7427293  *    53    52    50
+   123       H          1.08876916  *  122.8755603  * -179.8936776  *    54    53    52
+   124       H          0.96817287  *  111.0303248  *    0.0029510  *    61    59    60
+
+                             CARTESIAN COORDINATES
+
+   1    C        0.000000000     0.000000000     0.000000000
+   2    C        1.519999944     0.000000000     0.000000000
+   3    C        2.061452466     1.427415711     0.000000000
+   4    C        3.588330542     1.428337757     0.000351201
+   5    C        4.128462454     2.856686949     0.001318670
+   6    C        5.655560977     2.857378806     0.001973815
+   7    C        6.195606137     4.285801344     0.003834719
+   8    C        7.722719368     4.286187729     0.004731754
+   9    C        8.262183709     5.714860323     0.007829940
+  10    C        9.789341029     5.714860935     0.007620355
+  11    C       10.324830103     7.143692973     0.013799026
+  12    C       11.860540935     7.129281986     0.013399172
+  13    N       12.416591907     8.479716745     0.021133456
+  14    C       12.475212872     9.311246123     1.157330855
+  15    C       12.361084597     8.980014453     2.506074918
+  16    C       12.527158726     9.998011345     3.429469332
+  17    C       12.800976022    11.315887381     3.029083076
+  18    C       12.909403700    11.650074363     1.682371825
+  19    C       12.741559804    10.645686084     0.745493203
+  20    C       12.772538214    10.644300705    -0.695283594
+  21    C       12.524553388     9.309315950    -1.115963699
+  22    C       12.470943017     8.973614241    -2.466478500
+  23    C       12.685248189     9.982191198    -3.390563604
+  24    C       12.932577122    11.302129087    -2.971124369
+  25    C       12.975340501    11.652241299    -1.621272852
+  26    N       13.145047171    12.302075087    -3.949485035
+  27    C       14.224347778    13.206849815    -3.983927545
+  28    C       15.316285015    13.328007803    -3.134891586
+  29    C       16.244160028    14.320195060    -3.422222719
+  30    C       16.109321629    15.174934284    -4.522913689
+  31    C       15.017321987    15.032657076    -5.377833405
+  32    C       14.077073552    14.052901782    -5.115482098
+  33    C       12.869078051    13.649592171    -5.793698949
+  34    C       12.313186027    12.571639107    -5.053881111
+  35    C       11.119175603    11.977553215    -5.440228264
+  36    C       10.504469292    12.460993508    -6.587609963
+  37    C       11.044543856    13.510642681    -7.340359192
+  38    C       12.234740169    14.111344455    -6.932597156
+  39    C       10.383096848    14.033760951    -8.589077955
+  40    C       10.034665704    15.510671763    -8.382056813
+  41    C        9.094084171    13.293561051    -8.950876022
+  42    C       11.354213653    13.884312869    -9.764102581
+  43    C       17.111772458    16.255896763    -4.834488293
+  44    C       18.257794444    16.332879771    -3.824010761
+  45    C       17.718918834    15.983865391    -6.213933144
+  46    C       16.396397446    17.610288319    -4.834857119
+  47    C       12.955227666    12.328599930     4.046492689
+  48    C       12.165565802    12.479268454     5.150177011
+  49    C       12.591570216    13.570789690     5.971962014
+  50    C       13.689347283    14.202859899     5.455709280
+  51    S       14.215090097    13.486002786     3.988086358
+  52    C       14.367052116    15.325665049     6.016039028
+  53    C       14.986069461    16.334569805     5.316641048
+  54    C       15.568000011    17.294175828     6.186813326
+  55    C       15.367392057    16.983403284     7.516853426
+  56    S       14.490856297    15.537086838     7.696955344
+  57    C       15.861198572    17.803927838     8.578399189
+  58    C       15.623078182    17.626642579     9.895940444
+  59    C       16.210210972    18.562506506    10.862407982
+  60    O       16.922730704    19.523956029    10.608258260
+  61    O       15.901513232    18.289130658    12.146405287
+  62    C       14.825283467    16.580457350    10.418056275
+  63    N       14.179309270    15.734490178    10.871581341
+  64    H       16.489742096    18.653247344     8.259924330
+  65    H       -0.417059518     0.506420567    -0.882414125
+  66    H       -0.409285724    -1.020646370    -0.000066795
+  67    H       -0.417064846     0.506297295     0.882482732
+  68    H        1.902197792    -0.561408908     0.878767643
+  69    H        1.902243811    -0.561406266    -0.878747048
+  70    H        1.674031921     1.984817566    -0.878930653
+  71    H        1.673713498     1.984800392     0.878814602
+  72    H        3.973955425     0.869429030     0.879168272
+  73    H        3.974404313     0.870285963    -0.878794496
+  74    H        3.742699457     3.415546636    -0.877451885
+  75    H        3.742016043     3.414456701     0.880491722
+  76    H        6.041066001     2.298052133     0.880577806
+  77    H        6.041866690     2.299920686    -0.877451278
+  78    H        5.810055772     4.845194103    -0.874702370
+  79    H        5.809150006     4.843152617     0.883283684
+  80    H        8.107955599     3.726217404     0.883058412
+  81    H        8.109037445     3.729408626    -0.875128267
+  82    H        7.876316608     6.275363091    -0.869884694
+  83    H        7.876558022     6.271286091     0.888252533
+  84    H       10.174991343     5.152985584     0.884753423
+  85    H       10.174656892     5.160480627    -0.874400319
+  86    H        9.944396180     7.709946579    -0.862588690
+  87    H        9.945644636     7.701908735     0.896047469
+  88    H       12.256580757     6.575471314     0.896304614
+  89    H       12.256866455     6.582447544    -0.873371724
+  90    H       12.149300729     7.959667671     2.831081817
+  91    H       12.449566068     9.767560371     4.497363327
+  92    H       13.111716552    12.674777300     1.359387545
+  93    H       12.274037824     7.951827799    -2.797456734
+  94    H       12.670865619     9.742615765    -4.459712505
+  95    H       13.152026308    12.680498844    -1.293156178
+  96    H       15.451374603    12.661361398    -2.280460398
+  97    H       17.097103275    14.401297634    -2.742503618
+  98    H       14.874805898    15.669010015    -6.255311467
+  99    H       10.669809100    11.169509118    -4.859256037
+ 100    H        9.565928694    11.980027831    -6.877271261
+ 101    H       12.689014407    14.940741228    -7.481212815
+ 102    H        9.383685499    15.656366944    -7.508259216
+ 103    H       10.917304756    16.145816789    -8.225512005
+ 104    H        9.506466208    15.935163571    -9.248406840
+ 105    H        8.324408205    13.380143131    -8.170652973
+ 106    H        8.637132458    13.693675273    -9.868985942
+ 107    H        9.261466543    12.223557233    -9.139782763
+ 108    H       10.904806595    14.207825700   -10.714456240
+ 109    H       12.270995626    14.478239154    -9.646950356
+ 110    H       11.670970662    12.840387185    -9.899557179
+ 111    H       17.907061071    16.549636381    -2.804896630
+ 112    H       18.849418860    15.407057836    -3.785361122
+ 113    H       18.970119214    17.133976037    -4.074326854
+ 114    H       16.980420031    16.019445354    -7.026534154
+ 115    H       18.493011671    16.719884702    -6.476236881
+ 116    H       18.191445198    14.992429199    -6.261972150
+ 117    H       15.896534388    17.806362294    -3.875620846
+ 118    H       17.092006040    18.444289669    -5.009137640
+ 119    H       15.625853634    17.693253647    -5.613540324
+ 120    H       11.301847568    11.864180330     5.390887209
+ 121    H       12.077532788    13.849547431     6.889290226
+ 122    H       15.027706859    16.410358119     4.232808202
+ 123    H       16.103025842    18.171224222     5.826325094
+ 124    H       16.309473801    18.930570830    12.745972956
+
+
+           Empirical Formula: C56 H61 N3 O2 S2  =   124 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+                  EIGENVALUES  
+ -40.08248 -39.60142 -39.09032 -37.14199 -37.00621 -36.92062 -36.79081 -36.51353
+ -36.26158 -35.89470 -35.42532 -35.25920 -34.90736 -34.14716 -33.88374 -33.34385
+ -33.21035 -32.15853 -31.23615 -31.09814 -30.69750 -29.74916 -29.52780 -29.22228
+ -28.65838 -28.34307 -27.75345 -27.39873 -27.05921 -26.93122 -26.92921 -26.83607
+ -26.37340 -26.36787 -25.31685 -24.62997 -23.89284 -23.61905 -23.49760 -23.40197
+ -22.75988 -22.55677 -22.38725 -22.36439 -21.66484 -21.64793 -21.41266 -21.19693
+ -21.01789 -20.77898 -20.71690 -20.45784 -20.31585 -20.11204 -19.71364 -19.10394
+ -18.99880 -18.38419 -18.18514 -17.94652 -17.76674 -17.58260 -17.49156 -17.41399
+ -16.72160 -16.69414 -16.53549 -16.43637 -16.24275 -16.22679 -16.19714 -15.91385
+ -15.89490 -15.68418 -15.62244 -15.56328 -15.43649 -15.17601 -15.12300 -15.03127
+ -14.93648 -14.85425 -14.81368 -14.79792 -14.78482 -14.72541 -14.70010 -14.58652
+ -14.56604 -14.49804 -14.43673 -14.39889 -14.30980 -14.30299 -14.27723 -14.17584
+ -14.11015 -13.95937 -13.92578 -13.92157 -13.83040 -13.70408 -13.65792 -13.57667
+ -13.51114 -13.41232 -13.27275 -13.24430 -13.22174 -13.18287 -13.07310 -13.06617
+ -13.00300 -12.97734 -12.84658 -12.73873 -12.67635 -12.59689 -12.58944 -12.43333
+ -12.38513 -12.36565 -12.30444 -12.30348 -12.28725 -12.26865 -12.25105 -12.21840
+ -12.16836 -12.07316 -12.01867 -11.89440 -11.85976 -11.81072 -11.78755 -11.70722
+ -11.66286 -11.61516 -11.58244 -11.56033 -11.51599 -11.49758 -11.34822 -11.31330
+ -11.28039 -11.27029 -11.26269 -11.16551 -11.12813 -11.03924 -10.64750 -10.21427
+ -10.19286  -9.72463  -9.66786  -9.45261  -9.35086  -9.02639  -8.79356  -8.40173
+  -8.32673  -7.74525  -1.42405  -0.45659  -0.24844   0.00501   0.19669   0.37110
+   0.50243   0.53175   0.82415   0.94624   1.12087   1.24951   1.26252   1.34220
+   1.34708   1.44569   1.57680   1.58489   1.70152   1.77695   1.81808   2.26077
+   2.48787   2.62306   2.95833   3.05702   3.06502   3.26904   3.33516   3.50585
+   3.62190   3.65409   3.77325   3.80830   3.82943   3.83098   3.85134   3.88203
+   3.92774   3.93336   3.94748   3.97088   4.00452   4.00651   4.02452   4.05229
+   4.11558   4.12182   4.14842   4.15356   4.19113   4.21202   4.25313   4.26883
+   4.27355   4.30520   4.31578   4.35125   4.37208   4.37584   4.40291   4.44011
+   4.46737   4.47169   4.49262   4.50535   4.53856   4.54228   4.55643   4.57366
+   4.59000   4.63310   4.63776   4.69929   4.70252   4.71462   4.71991   4.73102
+   4.73619   4.77936   4.78122   4.79044   4.80463   4.82164   4.83646   4.86008
+   4.87851   4.88342   4.89106   4.89303   4.89491   4.93700   4.96808   5.01886
+   5.02964   5.03792   5.05700   5.06489   5.07302   5.08462   5.10281   5.11805
+   5.13517   5.14075   5.15831   5.17751   5.18714   5.21416   5.23422   5.23645
+   5.23842   5.25079   5.26395   5.28566   5.31036   5.31445   5.32090   5.32668
+   5.36778   5.39557   5.40498   5.48444   5.49302   5.50061   5.52784   5.55899
+   5.57190   5.57486   5.58025   5.63824   5.65515   5.66641   5.70066   5.71472
+   5.71650   5.75932   5.83349   5.84786   5.84961   5.87027   6.11978   6.15903
+   6.16952   6.18878   6.24399   6.27946   6.32664   6.38826   6.62491   6.63890
+   6.88573
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop
+   60          O          -0.381983        6.3820     1.91042     4.47156
+   59          C           0.407778        3.5922     1.17926     2.41296
+   61          O          -0.312541        6.3125     1.84000     4.47254
+  124          H           0.244336        0.7557     0.75566
+   62          C           0.050604        3.9494     1.19517     2.75423
+   63          N          -0.149433        5.1494     1.84842     3.30102
+    1          C          -0.177129        4.1771     1.15574     3.02139
+    2          C          -0.112333        4.1123     1.16680     2.94553
+    3          C          -0.122817        4.1228     1.17075     2.95207
+    4          C          -0.123547        4.1235     1.17073     2.95282
+    5          C          -0.123315        4.1233     1.17073     2.95258
+    6          C          -0.123253        4.1233     1.17075     2.95251
+    7          C          -0.123509        4.1235     1.17074     2.95277
+    8          C          -0.123434        4.1234     1.17076     2.95267
+    9          C          -0.123408        4.1234     1.17070     2.95270
+   10          C          -0.118943        4.1189     1.16955     2.94939
+   11          C          -0.169124        4.1691     1.17986     2.98927
+   12          C           0.061981        3.9380     1.15819     2.77983
+   13          N          -0.283082        5.2831     1.51789     3.76519
+   14          C           0.124024        3.8760     1.15320     2.72278
+   15          C          -0.171039        4.1710     1.17091     3.00013
+   16          C          -0.041765        4.0418     1.17726     2.86451
+   17          C          -0.049237        4.0492     1.14890     2.90033
+   18          C          -0.028141        4.0281     1.16940     2.85874
+   19          C          -0.099413        4.0994     1.15861     2.94081
+   20          C          -0.067400        4.0674     1.15712     2.91028
+   21          C           0.097097        3.9029     1.15314     2.74976
+   22          C          -0.141774        4.1418     1.16936     2.97242
+   23          C          -0.092842        4.0928     1.17984     2.91300
+   24          C           0.084411        3.9156     1.14070     2.77489
+   25          C          -0.076330        4.0763     1.17254     2.90379
+   26          N          -0.258695        5.2587     1.47737     3.78132
+   27          C           0.123276        3.8767     1.14994     2.72679
+   28          C          -0.174351        4.1744     1.17201     3.00234
+   29          C          -0.057808        4.0578     1.17533     2.88248
+   30          C          -0.097275        4.0973     1.17869     2.91859
+   31          C          -0.043611        4.0436     1.16987     2.87374
+   32          C          -0.092062        4.0921     1.15911     2.93295
+   33          C          -0.092014        4.0920     1.15915     2.93286
+   34          C           0.123834        3.8762     1.14983     2.72633
+   35          C          -0.174447        4.1744     1.17168     3.00276
+   36          C          -0.057526        4.0575     1.17527     2.88225
+   37          C          -0.097178        4.0972     1.17868     2.91850
+   38          C          -0.043382        4.0434     1.16989     2.87349
+   39          C           0.064668        3.9353     1.16573     2.76961
+   40          C          -0.186101        4.1861     1.16147     3.02463
+   41          C          -0.187481        4.1875     1.16080     3.02668
+   42          C          -0.186093        4.1861     1.16152     3.02458
+   43          C           0.064650        3.9353     1.16573     2.76962
+   44          C          -0.187413        4.1874     1.16080     3.02661
+   45          C          -0.186095        4.1861     1.16147     3.02463
+   46          C          -0.186025        4.1860     1.16152     3.02450
+   47          C          -0.265010        4.2650     1.21437     3.05064
+   48          C          -0.118913        4.1189     1.18143     2.93749
+   49          C          -0.079850        4.0799     1.18278     2.89707
+   50          C          -0.290581        4.2906     1.20088     3.08970
+   51          S           0.459461        5.5405     1.88573     3.65481
+   52          C          -0.225976        4.2260     1.20787     3.01811
+   53          C          -0.155083        4.1551     1.18239     2.97269
+   54          C          -0.012114        4.0121     1.18441     2.82770
+   55          C          -0.455622        4.4556     1.21879     3.23683
+   56          S           0.583236        5.4168     1.88314     3.53363
+   57          C           0.161483        3.8385     1.17062     2.66790
+   58          C          -0.174736        4.1747     1.14085     3.03389
+   64          H           0.130406        0.8696     0.86959
+   65          H           0.057581        0.9424     0.94242
+   66          H           0.055720        0.9443     0.94428
+   67          H           0.057637        0.9424     0.94236
+   68          H           0.059607        0.9404     0.94039
+   69          H           0.059551        0.9404     0.94045
+   70          H           0.062107        0.9379     0.93789
+   71          H           0.062161        0.9378     0.93784
+   72          H           0.061645        0.9384     0.93835
+   73          H           0.061594        0.9384     0.93841
+   74          H           0.062096        0.9379     0.93790
+   75          H           0.062158        0.9378     0.93784
+   76          H           0.061915        0.9381     0.93809
+   77          H           0.061863        0.9381     0.93814
+   78          H           0.062736        0.9373     0.93726
+   79          H           0.062795        0.9372     0.93721
+   80          H           0.062336        0.9377     0.93766
+   81          H           0.062296        0.9377     0.93770
+   82          H           0.064995        0.9350     0.93501
+   83          H           0.065069        0.9349     0.93493
+   84          H           0.062968        0.9370     0.93703
+   85          H           0.062886        0.9371     0.93711
+   86          H           0.080976        0.9190     0.91902
+   87          H           0.081280        0.9187     0.91872
+   88          H           0.079339        0.9207     0.92066
+   89          H           0.079366        0.9206     0.92063
+   90          H           0.121129        0.8789     0.87887
+   91          H           0.110821        0.8892     0.88918
+   92          H           0.116391        0.8836     0.88361
+   93          H           0.120528        0.8795     0.87947
+   94          H           0.125550        0.8744     0.87445
+   95          H           0.130845        0.8692     0.86916
+   96          H           0.122144        0.8779     0.87786
+   97          H           0.105766        0.8942     0.89423
+   98          H           0.110898        0.8891     0.88910
+   99          H           0.120562        0.8794     0.87944
+  100          H           0.105590        0.8944     0.89441
+  101          H           0.110949        0.8891     0.88905
+  102          H           0.064584        0.9354     0.93542
+  103          H           0.060313        0.9397     0.93969
+  104          H           0.058276        0.9417     0.94172
+  105          H           0.061938        0.9381     0.93806
+  106          H           0.060637        0.9394     0.93936
+  107          H           0.061665        0.9383     0.93834
+  108          H           0.058308        0.9417     0.94169
+  109          H           0.060299        0.9397     0.93970
+  110          H           0.064187        0.9358     0.93581
+  111          H           0.061287        0.9387     0.93871
+  112          H           0.062231        0.9378     0.93777
+  113          H           0.060595        0.9394     0.93941
+  114          H           0.060342        0.9397     0.93966
+  115          H           0.058262        0.9417     0.94174
+  116          H           0.064689        0.9353     0.93531
+  117          H           0.063869        0.9361     0.93613
+  118          H           0.058276        0.9417     0.94172
+  119          H           0.060339        0.9397     0.93966
+  120          H           0.131546        0.8685     0.86845
+  121          H           0.130230        0.8698     0.86977
+  122          H           0.138696        0.8613     0.86130
+  123          H           0.125572        0.8744     0.87443
+  
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -0.993    -4.328    -3.309     5.538
+ HYBRID        -0.362     1.079    -0.032     1.139
+ SUM           -1.354    -3.248    -3.341     4.853
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1  C   1.15574   0.96500   1.02761   1.02878
+    2  C   1.16680   0.95241   0.96729   1.02583
+    3  C   1.17075   0.95320   0.96957   1.02930
+    4  C   1.17073   0.95690   0.96748   1.02844
+    5  C   1.17073   0.95319   0.97031   1.02909
+    6  C   1.17075   0.95734   0.96643   1.02874
+    7  C   1.17074   0.95135   0.97157   1.02985
+    8  C   1.17076   0.95941   0.96410   1.02917
+    9  C   1.17070   0.94565   0.97438   1.03267
+   10  C   1.16955   0.96573   0.95450   1.02916
+   11  C   1.17986   0.94856   0.98664   1.05406
+   12  C   1.15819   0.93375   0.80696   1.03912
+   13  N   1.51789   1.60873   1.10160   1.05487
+   14  C   1.15320   0.97160   0.88186   0.86932
+   15  C   1.17091   1.08303   1.00055   0.91655
+   16  C   1.17726   0.95923   0.91982   0.98546
+   17  C   1.14890   1.06106   0.92369   0.91558
+   18  C   1.16940   0.96426   0.97770   0.91679
+   19  C   1.15861   1.08273   0.93253   0.92555
+   20  C   1.15712   1.06043   0.92648   0.92337
+   21  C   1.15314   0.99426   0.88537   0.87013
+   22  C   1.16936   1.06303   0.99646   0.91293
+   23  C   1.17984   0.99945   0.91567   0.99788
+   24  C   1.14070   1.04734   0.86329   0.86426
+   25  C   1.17254   0.99926   0.98899   0.91555
+   26  N   1.47737   1.23031   1.31087   1.24014
+   27  C   1.14994   0.87628   0.89306   0.95745
+   28  C   1.17201   0.96017   1.02415   1.01802
+   29  C   1.17533   0.97646   0.94323   0.96279
+   30  C   1.17869   0.96906   0.98389   0.96563
+   31  C   1.16987   0.93109   0.96193   0.98072
+   32  C   1.15911   0.97016   0.99459   0.96820
+   33  C   1.15915   0.96642   0.98802   0.97842
+   34  C   1.14983   0.91401   0.95234   0.85999
+   35  C   1.17168   0.96313   1.03748   1.00216
+   36  C   1.17527   0.98492   0.95592   0.94141
+   37  C   1.17868   0.96496   0.97910   0.97444
+   38  C   1.16989   0.94392   0.98171   0.94785
+   39  C   1.16573   0.92597   0.93199   0.91164
+   40  C   1.16147   1.03054   0.96294   1.03115
+   41  C   1.16080   0.98138   1.01722   1.02808
+   42  C   1.16152   1.00303   1.03424   0.98731
+   43  C   1.16573   0.91722   0.91775   0.93466
+   44  C   1.16080   0.99077   1.03245   1.00339
+   45  C   1.16147   1.02154   1.03151   0.97157
+   46  C   1.16152   1.01646   0.97368   1.03436
+   47  C   1.21437   1.02054   1.02480   1.00530
+   48  C   1.18143   1.00436   0.98883   0.94429
+   49  C   1.18278   0.95027   0.95218   0.99463
+   50  C   1.20088   1.03211   1.02140   1.03619
+   51  S   1.88573   1.26041   1.22796   1.16644
+   52  C   1.20787   1.02918   0.98134   1.00759
+   53  C   1.18239   1.01901   0.94968   1.00399
+   54  C   1.18441   0.94834   0.97350   0.90586
+   55  C   1.21879   1.16518   1.07982   0.99182
+   56  S   1.88314   1.47227   1.11097   0.95038
+   57  C   1.17062   0.85996   0.91888   0.88905
+   58  C   1.14085   1.09712   0.99735   0.93942
+   59  C   1.17926   0.76992   0.82137   0.82167
+   60  O   1.91042   1.34905   1.27287   1.84964
+   61  O   1.84000   1.71687   1.57117   1.18449
+   62  C   1.19517   0.91725   0.91595   0.92102
+   63  N   1.84842   1.11038   1.11357   1.07707
+   64  H   0.86959
+   65  H   0.94242
+   66  H   0.94428
+   67  H   0.94236
+   68  H   0.94039
+   69  H   0.94045
+   70  H   0.93789
+   71  H   0.93784
+   72  H   0.93835
+   73  H   0.93841
+   74  H   0.93790
+   75  H   0.93784
+   76  H   0.93809
+   77  H   0.93814
+   78  H   0.93726
+   79  H   0.93721
+   80  H   0.93766
+   81  H   0.93770
+   82  H   0.93501
+   83  H   0.93493
+   84  H   0.93703
+   85  H   0.93711
+   86  H   0.91902
+   87  H   0.91872
+   88  H   0.92066
+   89  H   0.92063
+   90  H   0.87887
+   91  H   0.88918
+   92  H   0.88361
+   93  H   0.87947
+   94  H   0.87445
+   95  H   0.86916
+   96  H   0.87786
+   97  H   0.89423
+   98  H   0.88910
+   99  H   0.87944
+  100  H   0.89441
+  101  H   0.88905
+  102  H   0.93542
+  103  H   0.93969
+  104  H   0.94172
+  105  H   0.93806
+  106  H   0.93936
+  107  H   0.93834
+  108  H   0.94169
+  109  H   0.93970
+  110  H   0.93581
+  111  H   0.93871
+  112  H   0.93777
+  113  H   0.93941
+  114  H   0.93966
+  115  H   0.94174
+  116  H   0.93531
+  117  H   0.93613
+  118  H   0.94172
+  119  H   0.93966
+  120  H   0.86845
+  121  H   0.86977
+  122  H   0.86130
+  123  H   0.87443
+  124  H   0.75566
+ ******************** TDHF POLARIZABILITIES ********************
+
+
+
+          MOLECULAR WEIGHT =  872.24
+
+
+
+          ROTATIONAL CONSTANTS IN CM(-1)
+
+          A =    0.00067086   B =    0.00042920   C =    0.00027718
+
+
+
+           PRINCIPAL MOMENTS OF INERTIA IN UNITS OF 10**(-40)*GRAM-CM**2
+
+          A =    41726.8681   B =    65220.3550   C =   100992.7209
+
+
+ ROTATION MATRIX FOR ORIENTATION OF MOLECULE:
+
+         0.511718    0.346427   -0.786214
+         0.644318    0.450602    0.617910
+         0.568330   -0.822768    0.007372
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM         X         Y         Z
+
+     1         C      -14.1371   -9.2818    2.2763
+     2         C      -13.3593   -8.7552    1.0813
+     3         C      -12.1626   -7.9245    1.5376
+     4         C      -11.3804   -7.3954    0.3377
+     5         C      -10.1832   -6.5654    0.7957
+     6         C       -9.4009   -6.0366   -0.4045
+     7         C       -8.2031   -5.2074    0.0535
+     8         C       -7.4209   -4.6790   -1.1469
+     9         C       -6.2226   -3.8509   -0.6882
+    10         C       -5.4412   -3.3216   -1.8889
+    11         C       -4.2431   -2.4974   -1.4269
+    12         C       -3.4668   -1.9715   -2.6432
+    13         N       -2.3077   -1.1768   -2.2459
+    14         C       -1.0962   -1.7166   -1.7698
+    15         C       -0.6015   -3.0151   -1.8748
+    16         C        0.6642   -3.2586   -1.3695
+    17         C        1.4259   -2.2405   -0.7734
+    18         C        0.9313   -0.9443   -0.6621
+    19         C       -0.3342   -0.6842   -1.1577
+    20         C       -1.1380    0.5114   -1.1935
+    21         C       -2.3642    0.1700   -1.8265
+    22         C       -3.3755    1.1113   -2.0018
+    23         C       -3.1411    2.4004   -1.5539
+    24         C       -1.9257    2.7357   -0.9296
+    25         C       -0.9111    1.7977   -0.7370
+    26         N       -1.7288    4.0649   -0.4860
+    27         C       -0.6131    4.8748   -0.7758
+    28         C        0.5063    4.6091   -1.5531
+    29         C        1.4571    5.6140   -1.6717
+    30         C        1.3133    6.8581   -1.0456
+    31         C        0.1769    7.1191   -0.2813
+    32         C       -0.7864    6.1360   -0.1455
+    33         C       -2.0499    6.0938    0.5500
+    34         C       -2.6084    4.8068    0.3264
+    35         C       -3.8218    4.4433    0.8952
+    36         C       -4.4769    5.3923    1.6688
+    37         C       -3.9521    6.6717    1.8872
+    38         C       -2.7242    7.0192    1.3257
+    39         C       -4.6632    7.7056    2.7213
+    40         C       -3.7722    8.0801    3.9094
+    41         C       -6.0053    7.2232    3.2747
+    42         C       -4.9303    8.9415    1.8568
+    43         C        2.3456    7.9488   -1.1681
+    44         C        3.5560    7.5491   -2.0141
+    45         C        1.6971    9.1715   -1.8237
+    46         C        2.8520    8.3116    0.2312
+    47         C        2.7356   -2.5678   -0.2614
+    48         C        3.0558   -3.6815    0.4606
+    49         C        4.4441   -3.7182    0.8062
+    50         C        5.1197   -2.6284    0.3299
+    51         S        4.0928   -1.5618   -0.5372
+    52         C        6.5084   -2.3487    0.4950
+    53         C        7.0778   -1.1042    0.6266
+    54         C        8.4884   -1.1861    0.7684
+    55         C        8.9414   -2.4900    0.7439
+    56         S        7.6633   -3.5935    0.5407
+    57         C       10.3261   -2.8226    0.8705
+    58         C       10.8388   -4.0690    0.9579
+    59         C       12.2915   -4.2391    1.0817
+    60         O       13.1311   -3.3499    1.1137
+    61         O       12.6871   -5.5256    1.1649
+    62         C       10.0532   -5.2464    0.9425
+    63         N        9.4353   -6.2245    0.9310
+    64         H       11.0139   -1.9601    0.8988
+    65         H      -14.5258   -8.4721    2.9107
+    66         H      -15.0042   -9.8834    1.9675
+    67         H      -13.5228   -9.9242    2.9236
+    68         H      -13.0261   -9.5988    0.4404
+    69         H      -14.0249   -8.1528    0.4274
+    70         H      -12.5012   -7.0843    2.1801
+    71         H      -11.5024   -8.5307    2.1933
+    72         H      -11.0438   -8.2367   -0.3043
+    73         H      -12.0421   -6.7898   -0.3171
+    74         H      -10.5199   -5.7242    1.4378
+    75         H       -9.5219   -7.1713    1.4506
+    76         H       -9.0647   -6.8780   -1.0468
+    77         H      -10.0622   -5.4304   -1.0592
+    78         H       -8.5393   -4.3661    0.6958
+    79         H       -7.5420   -5.8137    0.7082
+    80         H       -7.0854   -5.5205   -1.7893
+    81         H       -8.0820   -4.0721   -1.8011
+    82         H       -6.5577   -3.0098   -0.0449
+    83         H       -5.5610   -4.4581   -0.0347
+    84         H       -5.1074   -4.1629   -2.5328
+    85         H       -6.1025   -2.7123   -2.5409
+    86         H       -4.5710   -1.6530   -0.7844
+    87         H       -3.5760   -3.1031   -0.7774
+    88         H       -3.1191   -2.8103   -3.2903
+    89         H       -4.1203   -1.3510   -3.2993
+    90         H       -1.1826   -3.8156   -2.3364
+    91         H        1.0829   -4.2679   -1.4431
+    92         H        1.5115   -0.1467   -0.1904
+    93         H       -4.3227    0.8550   -2.4808
+    94         H       -3.9105    3.1671   -1.6985
+    95         H        0.0283    2.0522   -0.2381
+    96         H        0.6315    3.6525   -2.0650
+    97         H        2.3321    5.3868   -2.2872
+    98         H        0.0153    8.0784    0.2175
+    99         H       -4.2422    3.4456    0.7535
+   100         H       -5.4317    5.0887    2.1074
+   101         H       -2.2692    8.0016    1.4769
+   102         H       -3.5148    7.2013    4.5176
+   103         H       -2.8223    8.5433    3.6090
+   104         H       -4.2614    8.8012    4.5805
+   105         H       -5.9000    6.3537    3.9391
+   106         H       -6.5031    8.0006    3.8744
+   107         H       -6.7164    6.9545    2.4805
+   108         H       -5.4920    9.7135    2.4030
+   109         H       -4.0119    9.4303    1.5038
+   110         H       -5.5178    8.6923    0.9617
+   111         H        4.0953    6.6868   -1.5969
+   112         H        3.2842    7.3051   -3.0511
+   113         H        4.2944    8.3628   -2.0810
+   114         H        0.8803    9.6003   -1.2271
+   115         H        2.4183    9.9871   -1.9795
+   116         H        1.2728    8.9280   -2.8082
+   117         H        3.2677    7.4375    0.7524
+   118         H        3.6463    9.0717    0.1984
+   119         H        2.0686    8.7227    0.8825
+   120         H        2.3543   -4.4560    0.7614
+   121         H        4.8820   -4.5255    1.3894
+   122         H        6.5319   -0.1639    0.6327
+   123         H        9.1224   -0.3090    0.8871
+   124         H       13.6499   -5.5886    1.2450
+
+
+ ENERGY OF "REORIENTED" SYSTEM WITHOUT FIELD:       20.6459703768
+
+
+  NFREQ=  3  IWFLB=  0  IBET=  1  IGAM=  1
+  ATOL= 0.10000D-02  BTOL= 0.10000D-02    MAXITU=  500    MAXITA=  150
+
+
+ *****************************************************************
+ CALCULATION OF STATIC FIELD QUANTITIES
+ *****************************************************************
+
+ +++++ ALPHA AT       0.00000 EV.
+
+                           COMPONENTS OF ALPHA
+
+                     *X           *Y           *Z
+           *=X:     841.0434     -71.8734      16.0186
+           *=Y:     -71.8854     723.2291      41.8606
+           *=Z:      16.0505      41.8523     322.8058
+
+  ISOTROPIC AVERAGE ALPHA =     629.02610 A.U. =     93.21205 ANG.**3
+
+ +++++ BETA (SECOND HARMONIC GENERATION) AT       0.00000 EV.
+
+                              COMPONENTS OF BETA
+            *XX         *XY         *YY         *XZ         *YZ         *ZZ
+   *=X -8467.92062  2162.50660  -455.83985 -1377.86903   920.65607    60.24013
+   *=Y  2162.96944  -456.10250   -43.42833   920.71133  -138.76373   -15.94182
+   *=Z -1378.56590   920.94076  -138.68825    60.17020   -15.90540  -139.73876
+
+
+ AVERAGE BETAX(SHG) VALUE AT   0.00000 EV =      -5318.2452 a.u. = -0.459465E-28 ESU
+ AVERAGE BETAY(SHG) VALUE AT   0.00000 EV =       1261.9890 a.u. =  0.109029E-28 ESU
+ AVERAGE BETAZ(SHG) VALUE AT   0.00000 EV =       -993.9472 a.u. = -0.858713E-29 ESU
+
+
+
+ AVERAGE BETA (SHG) VALUE AT   0.00000 EV =       5555.5629 a.u. =  0.479968E-28 ESU
+   (1 a.u. = 8.639418X10-33 esu)
+
+
+
+ +++++ ALPHA AT       0.00000 EV.
+
+                           COMPONENTS OF ALPHA
+
+                     *X           *Y           *Z
+           *=X:     841.0434     -71.8734      16.0186
+           *=Y:     -71.8854     723.2291      41.8606
+           *=Z:      16.0505      41.8523     322.8058
+
+  ISOTROPIC AVERAGE ALPHA =     629.02610 A.U. =     93.21205 ANG.**3
+
+
+ GAMMA (THIRD HARMONIC GENERATION) AT    0.00000 EV.
+
+
+ GAMMA(X,X,X,X) =       2531075.21669
+ GAMMA(Y,Y,Y,Y) =        450908.99130
+ GAMMA(Z,Z,Z,Z) =         25339.24500
+ GAMMA(X,X,Y,Y) =        237680.82487
+ GAMMA(X,X,Z,Z) =        100462.35526
+ GAMMA(Y,Y,X,X) =        237680.61281
+ GAMMA(Y,Y,Z,Z) =         40690.43546
+ GAMMA(Z,Z,X,X) =        100462.36050
+ GAMMA(Z,Z,Y,Y) =         40690.42822
+
+
+ AVERAGE GAMMA VALUE AT    0.00000 =        752998.09402 a.u. =       379262.74428 ESU (X10-39)
+
+
+
+
+ **********************************************************************
+ CALCULATION FOR A FREQUENCY OF    0.25000 EV  =       0.00919 A.U. 
+                  WAVELENGTH OF    4959.37 NM  =    2016.38525 CM(-1)
+ **********************************************************************
+
+ +++++ ALPHA AT       0.25000 EV.
+
+                           COMPONENTS OF ALPHA
+
+                     *X           *Y           *Z
+           *=X:     844.2554     -72.7676      16.2536
+           *=Y:     -72.7784     725.0089      41.9072
+           *=Z:      16.2810      41.8999     323.2979
+
+  ISOTROPIC AVERAGE ALPHA =     630.85407 A.U. =     93.48293 ANG.**3
+
+ +++++ BETA (SECOND HARMONIC GENERATION) AT       0.25000 EV.
+
+                              COMPONENTS OF BETA
+            *XX         *XY         *YY         *XZ         *YZ         *ZZ
+   *=X -8876.25526  2279.70458  -480.81408 -1438.24845   953.02797    59.00045
+   *=Y  2298.57844  -497.07612   -25.88542   956.00057  -144.15310   -14.46349
+   *=Z -1447.33630   953.39998  -140.96803    56.21383   -13.92173  -143.13168
+
+
+ AVERAGE BETAX(SHG) VALUE AT   0.25000 EV =      -5586.4608 a.u. = -0.482638E-28 ESU
+ AVERAGE BETAY(SHG) VALUE AT   0.25000 EV =       1347.6049 a.u. =  0.116425E-28 ESU
+ AVERAGE BETAZ(SHG) VALUE AT   0.25000 EV =      -1036.5005 a.u. = -0.895476E-29 ESU
+
+
+
+ AVERAGE BETA (SHG) VALUE AT   0.25000 EV =       5839.4277 a.u. =  0.504493E-28 ESU
+   (1 a.u. = 8.639418X10-33 esu)
+
+
+
+ +++++ ALPHA AT       0.75000 EV.
+
+                           COMPONENTS OF ALPHA
+
+                     *X           *Y           *Z
+           *=X:     871.8208     -80.5698      18.3273
+           *=Y:     -80.5893     739.9069      42.2540
+           *=Z:      18.3495      42.2486     327.3553
+
+  ISOTROPIC AVERAGE ALPHA =     646.36102 A.U. =     95.78082 ANG.**3
+
+
+ GAMMA (THIRD HARMONIC GENERATION) AT    0.25000 EV.
+
+
+ GAMMA(X,X,X,X) =       2826931.15962
+ GAMMA(Y,Y,Y,Y) =        487514.09590
+ GAMMA(Z,Z,Z,Z) =         26564.30368
+ GAMMA(X,X,Y,Y) =        261581.59363
+ GAMMA(X,X,Z,Z) =        110163.82886
+ GAMMA(Y,Y,X,X) =        269009.75598
+ GAMMA(Y,Y,Z,Z) =         43929.14006
+ GAMMA(Z,Z,X,X) =        109944.97415
+ GAMMA(Z,Z,Y,Y) =         43248.03759
+
+
+ AVERAGE GAMMA VALUE AT    0.25000 =        835777.37790 a.u. =       420956.20755 ESU (X10-39)
+
+
+
+
+ **********************************************************************
+ CALCULATION FOR A FREQUENCY OF    0.50000 EV  =       0.01837 A.U. 
+                  WAVELENGTH OF    2479.68 NM  =    4032.77050 CM(-1)
+ **********************************************************************
+
+ +++++ ALPHA AT       0.50000 EV.
+
+                           COMPONENTS OF ALPHA
+
+                     *X           *Y           *Z
+           *=X:     854.1820     -75.5500      16.9834
+           *=Y:     -75.5599     730.4523      42.0447
+           *=Z:      17.0071      42.0382     324.7924
+
+  ISOTROPIC AVERAGE ALPHA =     636.47555 A.U. =     94.31594 ANG.**3
+
+ +++++ BETA (SECOND HARMONIC GENERATION) AT       0.50000 EV.
+
+                              COMPONENTS OF BETA
+            *XX         *XY         *YY         *XZ         *YZ         *ZZ
+   *=X-10333.10104  2700.96892  -569.97096 -1651.76452  1064.98880    53.51131
+   *=Y  2791.72001  -647.30171    38.84988  1078.81858  -163.68294    -8.66051
+   *=Z -1691.87017  1065.51169  -148.71393    40.62718    -6.13524  -154.28448
+
+
+ AVERAGE BETAX(SHG) VALUE AT   0.50000 EV =      -6545.8224 a.u. = -0.565521E-28 ESU
+ AVERAGE BETAY(SHG) VALUE AT   0.50000 EV =       1657.8553 a.u. =  0.143229E-28 ESU
+ AVERAGE BETAZ(SHG) VALUE AT   0.50000 EV =      -1186.8665 a.u. = -0.102538E-28 ESU
+
+
+
+ AVERAGE BETA (SHG) VALUE AT   0.50000 EV =       6856.0139 a.u. =  0.592320E-28 ESU
+   (1 a.u. = 8.639418X10-33 esu)
+
+
+
+ +++++ ALPHA AT       1.50000 EV.
+
+                           COMPONENTS OF ALPHA
+
+                     *X           *Y           *Z
+           *=X:    1002.1711    -120.6756      30.0531
+           *=Y:    -120.7066     802.3432      42.4779
+           *=Z:      30.0919      42.4658     343.2241
+
+  ISOTROPIC AVERAGE ALPHA =     715.91278 A.U. =    106.08733 ANG.**3
+
+
+ GAMMA (THIRD HARMONIC GENERATION) AT    0.50000 EV.
+
+
+ GAMMA(X,X,X,X) =       4209056.32112
+ GAMMA(Y,Y,Y,Y) =        636389.00182
+ GAMMA(Z,Z,Z,Z) =         31144.21133
+ GAMMA(X,X,Y,Y) =        369076.07318
+ GAMMA(X,X,Z,Z) =        153700.62563
+ GAMMA(Y,Y,X,X) =        417975.19291
+ GAMMA(Y,Y,Z,Z) =         57547.75165
+ GAMMA(Z,Z,X,X) =        151856.05374
+ GAMMA(Z,Z,Y,Y) =         53098.09589
+
+
+ AVERAGE GAMMA VALUE AT    0.50000 =       1215968.66545 a.u. =       612447.25143 ESU (X10-39)
+
+
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:           928.27 SECONDS
+
+ == MOPAC DONE ==
