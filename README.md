@@ -1,4 +1,4 @@
-# CARBAZOLE-BASED_DYES_LINEAR_MODELS
+# New_Carbazole_lin_models
 Suporting information to the work **DESIGN NEW CARBAZOLE-BASED DYES FOR DYE-SENSITIZED SOLAR CELL: A LINEAR MODELS APPROACH** submitted in this journal.
 
 ## Components
