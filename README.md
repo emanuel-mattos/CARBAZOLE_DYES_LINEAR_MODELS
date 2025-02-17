@@ -1,5 +1,5 @@
-# QSPR_Study_DSSC_Carbazole
-Suporting information to the work **QSPR STUDY OF THE EFFICIENCY OF DYE-SENSITIZED SOLAR CELLS UTILIZING CARBAZOLE-BASED DYES** submitted in this journal.
+# CARBAZOLE-BASED_DYES_LINEAR_MODELS
+Suporting information to the work **DESIGN NEW CARBAZOLE-BASED DYES FOR DYE-SENSITIZED SOLAR CELL: A LINEAR MODELS APPROACH** submitted in this journal.
 
 ## Components
 - A brief discussion of the molecular descriptors present in the best linear model (see the pdf 'Interpretation of Molecular Descriptors');
